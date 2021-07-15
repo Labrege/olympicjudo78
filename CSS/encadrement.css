@@ -1,0 +1,58 @@
+.titre{
+    height: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.encadrement_container{
+    width: 100%;
+
+    
+    margin: 50px;
+}
+
+.encadrant{
+    height: 300px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.image{
+    height: 100%;
+}
+.encadrant img{
+    width: auto;
+    max-height: 90%;
+    
+    border-radius: 20px;
+}
+
+.encadrant .text{
+    margin-top: 50px;
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.encadrant h2{
+    font-size: 2em;
+    font-weight: bolder;
+    height: 25%;
+}
+
+.encadrant h3{
+    font-size: 1.5em;
+    height:15%;
+
+}
+
+.encadrant p{
+    height:60%;
+    
+}

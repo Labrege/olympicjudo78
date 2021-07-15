@@ -1,0 +1,19 @@
+.titre-horaire{
+    height: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horaire-container{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.horaire-container img{
+    max-width: 90vw;
+    height: auto;
+}
