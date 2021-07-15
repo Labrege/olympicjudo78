@@ -70,12 +70,6 @@
     z-index: 2;
 }
 
-.titre-formule img{
-    height: 100%;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
 .card svg{
     height: 10%;
     position: absolute;
@@ -152,6 +146,8 @@
 .bouton_valider:focus{
     outline:none;
 }
+
+
 
 /*********************************************/
 
