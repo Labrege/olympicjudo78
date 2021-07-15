@@ -27,7 +27,7 @@
                 <h2> Stéphane BREGEON</h2>
                 <h3>Professeur diplômé d'état 2ème degré</h3>
                 <p>
--ceinture noir 6ème dan<br/><br/>
+-Ceinture noire 6ème dan<br/><br/>
 -Membre de l'équipe de France pendant 15 ans<br/><br/>
 -Entraineur de nombreux champions médaillés mondiaux et olympiques.<br/><br/>
 </p>
