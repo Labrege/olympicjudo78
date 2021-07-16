@@ -138,9 +138,13 @@ footer{
         font-size: 2rem;
     }
 
+
     .logo_club{
         padding-left: 20px;
         max-width: 18vh;
+    }
+    #navbar{
+        width:100vw;
     }
 
     .navbar{
@@ -204,7 +208,7 @@ footer{
     }
 
     .nav-link{
-        font-size: 1.5em;
+        font-size: 1.2rem;
     }
 
     .change-cross .ligne-1{
@@ -226,4 +230,5 @@ footer{
         height:10vh;
     }
 }
+
 

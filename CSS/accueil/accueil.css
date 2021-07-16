@@ -1,4 +1,8 @@
 
+
+.rest{
+  overflow-x: hidden; 
+}
 .container-image{
   position: relative;
   width: 100%;
@@ -264,10 +268,6 @@
       width: 250px;
   }
 
-  .pagination-wrapper {
-      top:65%;
-    }
-
   .valeurs-container{
       top: 50%;
   }
@@ -276,7 +276,6 @@
       font-size: 2em;
   }
 
-  .container-image{
-      height: 80vh;
-  }
+  
+
 }

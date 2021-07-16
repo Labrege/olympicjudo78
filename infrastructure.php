@@ -74,7 +74,7 @@ require 'header.php'
                         <h2> OU NOUS TROUVER ? </h2>
                         <p> 
                         </p>
-                        <a href="https://www.buchelay.fr/"> En savoir plus </a>
+                        <a href="https://www.google.fr/maps/place/Plaine+Des+Sports+Grigore-Obreja/@48.9826668,1.674868,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6bedc0aa98169:0x8493e565eb252bac!8m2!3d48.9826583!4d1.6770522"> En savoir plus </a>
                     </div>
                 </div>
             </div>
