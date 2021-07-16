@@ -119,23 +119,13 @@ footer{
         font-size: 2rem;
     }
 
+
     .logo_club{
         display: none;
     }
-    .navbar{
-        height:90vh;
+    #navbar{
         width:100vw;
-        background-color: #111A2F;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 0;
-        right: 0vw;
-        top:20vh;
-        transition: 0.5s ease-in-out;
-        z-index: 10;
-        display: none;
+
     }
 
     .hamburger-menu{
@@ -161,7 +151,7 @@ footer{
     }
 
     .nav-link{
-        font-size: 1.5em;
+        font-size: 1.2rem;
     }
     
 }
@@ -171,4 +161,5 @@ footer{
         height:10vh;
     }
 }
+
 
