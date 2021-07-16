@@ -82,13 +82,13 @@
           </div>
           <div class="reseaux-container">
               <div class="reseaux-boite1">
-                  <a href="https://www.facebook.com/OvalXVrugby" target="_blank">
+                  <a href="https://www.facebook.com/olympicjudo78" target="_blank">
                       <div class="reseaux-info">
                           <img src="image/facebook.png" alt="">
                           <h2> @Olympic Judo78</h2>
                       </div>
                   </a>
-                  <a href="https://www.instagram.com/ovalxv/?hl=fr" target="_blank">
+                  <a href="https://www.instagram.com/olympicjudo78/?hl=fr" target="_blank">
                       <div class="reseaux-info">
                           <img src="image/instagram.png" alt="">
                           <h2> Olympic Judo78 </h2>
@@ -97,7 +97,7 @@
                   <a href="#">
                       <div class="reseaux-info">
                           <img src="image/mail.png" alt="">
-                          <a href="mailto:contact@ovalxv.com"><h2>OlympicJudo78@gmail.com </h2></a>
+                          <a href="mailto:olympicjudo78@gmail.com"><h2>OlympicJudo78@gmail.com </h2></a>
                       </div>
                   </a>
               </div>
