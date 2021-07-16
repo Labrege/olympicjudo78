@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/header.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="CSS/infrastructures.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Olympiquejudo78 </title>
-</head>
-<body>
-    <header>
-      <?php
-          require 'header.php'
-      ?>
-    </header>
-
+<?php
+require 'header.php'
+?>
+<div class="rest">
     <div class="titre titre-inf">
             <h1>Les <span class="titre-color">Infrastructures <span> </h1>
     </div>
@@ -51,7 +38,7 @@
                     <div class="content">
                         <h2> Plaine de Sports </br> Grigore-Obreja </h2>
                         <p> Le dojo se trouve dans le complexe ultra-moderne de la Plaine des Sports Grigore-Obreja.
-Inauguré en 2015, tout proche de la zone commerciale Aushopping Mantes-Buchelay, il est très facile d'accès et doté d'un grand parking.
+    Inauguré en 2015, tout proche de la zone commerciale Aushopping Mantes-Buchelay, il est très facile d'accès et doté d'un grand parking.
 
                         </p>
                         <a href="https://www.buchelay.fr/"> En savoir plus </a>
@@ -93,7 +80,7 @@ Inauguré en 2015, tout proche de la zone commerciale Aushopping Mantes-Buchelay
             </div>
         </div>
     </div>
-    <footer style="text-align: center;">
-		OlympicJudo78 Buchelay-Mantes | ALL RIGHTS RESERVED &#169 2021
-	</footer>
-</body>
+</div>
+<?php
+    require 'footer.php';
+?>
