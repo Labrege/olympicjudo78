@@ -22,17 +22,17 @@
 }
 
 
-.container{
+.container-formule{
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    margin: 50px;;
     flex-wrap: wrap;
     z-index: 1;
 }
 
-.container .card{
+.container-formule .card-form{
     position: relative;
     width: 400px;
     height: 600px;
@@ -52,7 +52,7 @@
 
 
 
-.container .card .titre-formule{
+.container-formule .card-form .titre-formule{
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +78,7 @@
     z-index: 1;
 }
 
-.container .card .prix_par_mois{
+.container-formule .card-form .prix_par_mois{
     font-size: 2em;
     margin-right: 40%;
 }
@@ -100,7 +100,7 @@
     font-size: 1.5em;
 }
 
-.container .card .content
+.container-formule .card-form .content
 {
     padding: 20px;
     text-align: center;
@@ -109,7 +109,7 @@
     transition: 0.5s;
 }
 
-.container .card:hover .content
+.container-formule .card-form:hover .content
 {
     transform: translateY(0px);
     opacity: 1;
@@ -165,7 +165,7 @@
     }
 
     
-.container .card .titre-formule{
+.container-formule .card-form .titre-formule{
 
     height: 8%;
     width:100%;

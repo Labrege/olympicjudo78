@@ -1,4 +1,8 @@
 
+
+.rest{
+  overflow-x: hidden; 
+}
 .container-image{
   position: relative;
   width: 100%;
