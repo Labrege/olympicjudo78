@@ -28,6 +28,14 @@ h1{
     padding-top: 100px;
 }
 
+header{
+    position: relative;
+}
+
+.logo-container{
+    flex: 1;
+}
+
 
 .header-logo{
     width: 100%;
@@ -42,7 +50,7 @@ h1{
 
 .logo_club {
     padding-left: 20px;
-    width: 10%;
+    width: 30%;
 }
 
 
@@ -98,15 +106,23 @@ footer{
 
 
 @media screen and (max-width: 768px){
+    .header-logo{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .logo-container{
+        flex: 1;
+    }
     /*burger menu*/
     .hamburger-menu{
         width: 35px;
         height: 30px;
         padding: 50px;
-
+        right: 0;
         cursor: pointer;
         z-index: 10;
-
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -123,7 +139,8 @@ footer{
     }
 
     .logo_club{
-        display: none;
+        padding-left: 20px;
+        max-width: 18vh;
     }
 
     .navbar{

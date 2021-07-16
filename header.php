@@ -2,13 +2,15 @@
   require 'links.php';
 ?>
 <div class="header-logo">
-    <img class= "logo_club" src="image/logo_ojmb.png" alt="logo-test">
+    <div class="logo-container">
+      <img class= "logo_club" src="image/logo_ojmb.png" alt="logo-test">
+    </div>
     <div class="hamburger-menu" onclick="onClick()">
         <div class="ligne ligne-1"></div>
         <div class="ligne ligne-2"></div>
         <div class="ligne ligne-3"></div>
     </div>
-  <nav class="navbar">
+    <nav class="navbar">
       <ul id="myDIV" class="nav-list">
         <li class="nav-item jaune">
           <a href="index.php" class="nav-link">Accueil </a>
@@ -26,8 +28,8 @@
         <li class="nav-item">
             <a href="formules.php" class="nav-link">Formules</a>
         </li>
-        </ul>
-  </nav>
+      </ul>
+    </nav>
   <script src="JS/script.js?v=<?php echo time(); ?>"></script>
 </div>
 
