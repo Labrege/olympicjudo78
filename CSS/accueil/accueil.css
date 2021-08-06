@@ -242,14 +242,14 @@
 .transition-next .big-dot-container {
   animation: big-dot-container--animation-next 0.3s forwards;
 }
-.button {
+/*.button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   fill: #fff;
   cursor: pointer;
   transition: opacity 0.2s;
-}
+}*/
 
 .button:hover {
   opacity: 0.6;

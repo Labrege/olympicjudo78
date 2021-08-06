@@ -12,6 +12,7 @@
     <link rel="stylesheet" href=" CSS/accueil/apropos.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href=" CSS/accueil/reseaux.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="CSS/infrastructures.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="CSS/inscriptions.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
 </head>

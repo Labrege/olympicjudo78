@@ -65,6 +65,16 @@
         ?>">
             <a href="formules.php" class="nav-link">Formules</a>
         </li>
+        <li class="nav-item
+        <?php 
+          if(strpos($_SERVER['REQUEST_URI'], 'inscription.php') !== false){
+              echo 'jaune';
+          }else{
+              echo "";
+          }
+        ?>">
+            <a href="inscription.php" class="nav-link">Inscription</a>
+        </li>
       </ul>
     </nav>
   <script src="JS/script.js?v=<?php echo time(); ?>"></script>

@@ -21,13 +21,13 @@
     height: 100%;
     width: 30%;
 }
-.encadrant img{
+.intoduction img{
     width: auto;
     max-height: 90%;
     border-radius: 20px;
 }
 
-.encadrant .text{
+.intoduction .text{
     margin-top: 50px;
 
     height: 100%;
@@ -38,13 +38,13 @@
 
 }
 
-.encadrant h2{
+.encadrement_container h2{
     font-size: 2em;
     font-weight: bolder;
     height: 25%;
 }
 
-.encadrant h3{
+.encadrement_container h3{
     font-size: 1.5em;
     height:15%;
 

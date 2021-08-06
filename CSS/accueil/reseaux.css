@@ -69,14 +69,14 @@
     
 }
 
-form{
+.reseaux-boite2 form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-input{
+.reseaux-boite2 input{
     width: 70%;
     margin-top: 5px;
     margin-bottom: 5px;
