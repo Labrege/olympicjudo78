@@ -4,7 +4,18 @@ session_start();
 //if (time() < strtotime('+18 years', strtotime($_SESSION['user']['date'])))
 ?>
 <!-- JS -->
-<script scr="JS/signup-form.js"></script>
+<script src="JS/signup-form.js"></script>
+
+<!-- CSS -->
+<style>
+    .no-display{
+        display:none;
+    }
+
+    .display{
+        visibility: visible;
+    }
+</style>
 
 
 <div class="rest">
@@ -15,12 +26,12 @@ session_start();
             <div class="inscription-info">
                 <!-- Etape 1 -->
                 <h3> Etape 1 </h3>
-                <div class="form-container">
+                <div class="form-container" id="form-container1">
                     <form action="#" method=POST id="form1">
                         <h3> Mes informations personnelles </h3>
-                        <input type="text" class="texte" placeholder="Nom" name="nom">
                         <input type="text" class="texte" placeholder="Prénom" name="prenom">
-                        <input class="button" type="submit" name="button1" id="button1" value="Continuer"/>
+                        <input type="text" class="texte" placeholder="Nom" name="nom">
+                        <input class="button" type="submit" name="button1" id="button1" value="Prochaine Etape"/>
                     </form>
                                 
                 </div>
