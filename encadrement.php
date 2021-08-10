@@ -112,40 +112,47 @@
 
             <div class="athlete_entrainer">
                 <div class="txt_img">
-                    <div class="intro_boite"><img src="image/Tayot.jpg" alt="pascal Tayot"></div>
+                    <div class="intro_boite hauteur"><img src="image/Tayot.jpg" alt="pascal Tayot"></div>
                     <div class="intro_boite"><p>Cécile NOWAK, Championne Olympique</p>
                     <p>Pascal TAYOT, Vice-Champion Olympique</p></div>
                     
                     
                 </div>
                 <div class="txt_img">
-                    <div class="intro_boite"><img src="image/Larbi.jpg" alt="Larbi Benboudaoud"></div>
+                    <div class="intro_boite largeur"><img src="image/Larbi.jpg" alt="Larbi Benboudaoud"></div>
                     <div class="intro_boite"><p>Vice-Champion Olympique, 2x Champion du Monde -66kg</p></div>
                     
                     
                 </div>
                 <div class="txt_img">
-                    <div class="intro_boite"><img src="image/Maret.jpg" alt="Cyrille Maret"></div>
+                    <div class="intro_boite largeur"><img src="image/Maret.jpg" alt="Cyrille Maret"></div>
                     <div class="intro_boite"><p>Cyrille MARET 3ème aux JO 2016 (RIO)</p></div>
                     
                     
                 </div>
                 <div class="txt_img">
-                    <div class="intro_boite"><img src="image/pietri.jpg" alt="Loic Pietri"></div>
+                    <div class="intro_boite hauteur"><img src="image/pietri.jpg" alt="Loic Pietri"></div>
                     <div class="intro_boite"><p>Loic PIETRI Champion du monde -81 Kg</p></div>
                     
                     
                 </div>
                 <div class="txt_img">
-                    <div class="intro_boite"><img src="image/Korval.jpg" alt="Loic Korval"></div>
+                    <div class="intro_boite largeur"><img src="image/Korval.jpg" alt="Loic Korval"></div>
                     <div class="intro_boite"> <p>Loic KORVAL Champion d 'Europe, 3ème au Championnat du Monde</p></div>
                     
                    
                 </div>
                 <div class="txt_img">
-                    <div class="intro_boite"><img src="image/Fabre.jpg" alt="Thierry Fabre"></div>
+                    <div class="intro_boite largeur"><img src="image/Fabre.jpg" alt="Thierry Fabre"></div>
                     <div class="intro_boite">
-                    <p>3ème Championnat du monde</p> </div>
+                    <p>Thierry Fabre 3ème Championnat du monde</p> </div>
+                 
+                </div>
+
+                <div class="txt_img">
+                    <div class="intro_boite largeur"><img src="image/Darcel.jpg" alt="Darcel Yanzi"></div>
+                    <div class="intro_boite">
+                    <p>Darcel Yanzi : Champion du monde</p> </div>
                  
                 </div>
             </div>

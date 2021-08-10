@@ -33,7 +33,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    
 }
 .intro_boite {
     margin-top: 40px;
@@ -130,24 +130,14 @@ ul{
     font-size: large;
 }
 
-.entraineur img{
+
+.hauteur img{
     width: auto;
     height: 400px;
     border-radius: 20px;
 }
-.entraineur img:nth-child(2){
-    width: 400px;
-    height: auto;
-    border-radius: 20px;
-}
 
-.entraineur img:nth-child(5){
-    width: 400px;
-    height: auto;
-    border-radius: 20px;
-}
-
-.entraineur img:nth-child(6){
+.largeur img{
     width: 400px;
     height: auto;
     border-radius: 20px;
@@ -175,4 +165,69 @@ ul{
 
 .entraineur .intro_boite{
     width: 100%;
+}
+
+
+@media screen and (max-width:550px){
+    .txt_img{
+    flex-direction: column;
+    }
+
+    .intro_boite{
+        width: 80%;
+    }
+
+    .imagejeune {
+        flex-direction: column;
+    }
+
+    .imagejeune .intro_boite{
+        width: 80%;
+    }
+
+    .encadrement_container p{
+        font-size: 1em;
+    }
+    .senior .intro_boite{
+       height: 400px;
+    }
+
+    .senior .img1{
+        width: 320px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .senior .img2{
+        margin-top: 40px;
+        width: 320px;
+        height: auto;
+    }
+
+    .text{
+        margin-right:10px;
+        margin-left: 10px;
+    }
+}
+
+
+
+@media screen and (max-width:425px){
+    .entraineur .txt_img{
+        width:  320px;
+    }
+
+    .largeur img{
+        width: 250px;
+    }
+
+    .hauteur img{
+        height: 250px;
+    }
+
+    .entraineur .txt_img{
+        margin-right: 10px;
+    }
+
+
 }
