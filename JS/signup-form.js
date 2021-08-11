@@ -82,7 +82,15 @@ $(document).ready(function() {
                 }));
             }
         } else {
-            console.log('not all filled up');
+            if(prenom == ''){
+                console.log('remplir prenom');
+            }
+            if(nom == ''){
+                console.log('remplir nom');
+            }
+            if(dob == ''){
+                console.log('remplir date');
+            }
         }
     }));
 
