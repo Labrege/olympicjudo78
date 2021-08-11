@@ -5,21 +5,10 @@ session_start();
 ?>
 <!-- JS -->
 <script src="JS/signup-form.js?v=<?php echo time(); ?>"></script>
+<script src="JS/jquery.cosyAlert.js"></script>
 
 <!-- CSS -->
-<style>
-    .no-display{
-        display:none;
-    }
-
-    .display{
-        visibility: visible;
-    }
-
-    .disabled{
-        background-color: #cccccc;
-    }
-</style>
+<style></style>
 
 
 <div class="rest">
@@ -36,8 +25,7 @@ session_start();
                         <input type="text" class="texte" placeholder="Prenom" name="prenom">
                         <input type="text" class="texte" placeholder="Nom" name="nom">
                         <input type="date" class="texte" placeholder="date" name="dob">
-                        <button type="button" class="button" name="etape1"> Next </button>                     
-                                    
+                        <button type="button" class="button" name="etape1"> Next </button>                   
                     </div>
 
                     <!-- Etape 2 -->
@@ -92,39 +80,39 @@ session_start();
                             <h4>Présence au cours </h4>
                             <div class="presence">
                                 <div class="jours">
-                                    <input type="checkbox" name="mardi" class="check" value=1 >
+                                    <input type="checkbox" name="chk[]" class="check" value=1 >
                                     <label for="scales">Mardi</label>
                                 </div>
                                 <div class="jours">
-                                    <input type="checkbox" name="mercredi" class="check" value=1 >
+                                    <input type="checkbox" name="chk[]" class="check" value=1 >
                                     <label for="scales">Mercredi</label>
                                 </div>
                                 <div class="jours">
-                                    <input type="checkbox" name="vendredi" class="check" value=1 >
+                                    <input type="checkbox" name="chk[]" class="check" value=1 >
                                     <label for="scales">Vendredi</label>
                                 </div>
                                 <div class="jours">
-                                    <input type="checkbox" name="samedi" class="check" value=1 >
+                                    <input type="checkbox" name="chk[]" class="check" value=1 >
                                     <label for="scales">Samedi</label>
                                 </div>
                             </div>
 
                             <div class=droit>
-                                <input type="checkbox" name="droitimage" value=1 checked>
+                                <input type="checkbox" name="droitimage" id="droitImage" value=1 checked>
                                 <label for="scales">Autoriser le droit a l'image</label>
                             </div>
+
                             <div class=droit>
                                 <input type="checkbox" name="newsleter" value=1 checked>
                                 <label for="scales">Recevoir la newsleter </label>
                             </div>
                             <div class="musculation">
                                     <input type="checkbox" name="muscu" class="check" value=1 >
-                                    <label for="scales">Option musculation <i class="fa fa-info-circle" aria-hidden="true" title="salle de musculation"></i></label>
+                                    <label for="scales">Option musculation 220€ <i class="fa fa-info-circle" aria-hidden="true" title="salle de musculation"></i></label>
                             </div>
-                            <div class="prix">220 €</div>
 
                             <button type="button" class="button" name="retour2"> Back </button>
-                            <button type="button" class="button" name="Finaliser"> Finish </button>
+                            <button type="button" class="button" name="finaliser"> Finish </button>
                     </div>
                 </form>
             </div>
