@@ -35,22 +35,27 @@ session_start();
                         <h4> Mes informations personnelles </h4>
                         <input type="text" class="texte" placeholder="Prenom" name="prenom">
                         <input type="text" class="texte" placeholder="Nom" name="nom">
-                        <input type="text" class="texte" placeholder="date" name="dob" id="datepicker">
+                        <input type="date" class="texte" placeholder="date" name="dob">
                         <button type="button" class="button" name="etape1"> Next </button>                     
                                     
                     </div>
 
                     <!-- Etape 2 -->
                     <h3> Etape 2 </h3>
-                    <div class="form-container no-display" id="form-container2">
+                    <div class="form-container no-display" id="form-container2a">
+                        <h4> Mes Coordonnées </h4>
+                            <input type="email"  class="texte" placeholder="email" name="email">
+                        <input type="text" class="texte" placeholder="téléphone" name="tel">
+                    
+                        <button type="button" class="button" name="retour1"> Back </button>
+                        <button type="button" class="button" name="etape2"> Next </button>                   
+                    </div>
+
+                    <div class="form-container no-display" id="form-container2b">
                         <h4> Coordonnées de mon responsable légal </h4>
                         <input type="text" class="texte" placeholder="Nom du responsable" name="respnom">
                         <input type="text" class="texte" placeholder="Téléphone" name="resptel">
                         <input type="email" class="texte" placeholder="email" name="respmail">
-            
-                        <h4> Mes Coordonnées </h4>
-                            <input type="email"  class="texte" placeholder="email" name="email">
-                        <input type="text" class="texte" placeholder="téléphone" name="tel">
                     
                         <button type="button" class="button" name="retour1"> Back </button>
                         <button type="button" class="button" name="etape2"> Next </button>                   

@@ -18,37 +18,59 @@
     });
     
 });*/
-/* Jquery Disable Button if Textarea is empty */
+/* Fonctions */
+function CalculAge(dob){
+    dob = new Date(dob);
+    var today = new Date();
+    var age = Math.floor((today-dob) / (365.25 * 24 * 60 * 60 * 1000));
+    return age;
+}
 
-$(document).ready(function () {
+$(document).ready(function() {
     //Etape 1
-    $('button[name="etape1"]').attr('disabled', true);
-    $('input[name="prenom"], input[name="nom"], input[name="dob"]').on('keyup', function () {
+    if($('button[name="etape1"]').click(function(){
         var prenom = $('input[name="prenom"]').val();
         var nom = $('input[name="nom"]').val();
-        var dob = $('#datepicker').datepicker();
+        var dob = $('input[name="dob"]').val();
+        var email = $('input[name="email"]').val();
+        var tel = $('input[name="tel"]').val();
+        var respnom = $('input[name="respnom"]').val();
+        var resptel = $('input[name="resptel"]').val();
+        var respmail = $('input[name="respmail"]').val();
 
-        if (prenom != '' && nom != '' && dob.datepicker('getDate') == null) {
-            $('button[name="etape1"]').attr('disabled', false);
+        if (prenom != '' && nom != '' && dob != '') {
+            //Calcul de l'age
+            age = CalculAge(dob);
+            
+            //Changement d'etape
+            $("#form-container1").addClass('no-display');
+            $("#form-container1").removeClass('display');
+
+            if(age<18){
+                $("#form-container2b").addClass('display');
+                $("#form-container2b").removeClass('no-display');
+
+                if()
+            }
+            else{
+                $("#form-container2a").addClass('display');
+                $("#form-container2a").removeClass('no-display');
+            }
         } else {
-            $('button[name="etape1"]').attr('disabled', true);
+            console.log('not all filled up');
         }
-    });
-
-    //Etape 2
-    if($('button[name="etape1"]').click(function(){
-        $("#form-container1").addClass('no-display');
-        $("#form-container1").removeClass('display');
-        $("#form-container2").addClass('display');
-        $("#form-container2").removeClass('no-display');
     }));
 
+    //Retour à etape 1
     if($('button[name="retour1"]').click(function(){
         $("#form-container1").addClass('display');
         $("#form-container1").removeClass('no-display');
+        
+        $("#form-container2a").addClass('no-display');
+        $("#form-container2a").removeClass('display');
 
-        $("#form-container2").addClass('no-display');
-        $("#form-container2").removeClass('display');
+        $("#form-container2b").addClass('no-display');
+        $("#form-container2b").removeClass('display');
     }));
 });
 
