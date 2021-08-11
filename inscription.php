@@ -19,9 +19,9 @@ session_start();
             <div class="inscription-info">
                 <!-- Etape 1 -->
                 <form action="#" method=POST id="form1">
-                <h3> Etape 1 </h3>
+                <h2> Etape 1 </h2>
                     <div class="form-container display" id="form-container1">
-                        <h4> Mes informations personnelles </h4>
+                        <h3> Mes informations personnelles </h3>
                         <input type="text" class="texte" placeholder="Prenom" name="prenom">
                         <input type="text" class="texte" placeholder="Nom" name="nom">
                         <input type="date" class="texte" placeholder="date" name="dob">
@@ -29,9 +29,9 @@ session_start();
                     </div>
 
                     <!-- Etape 2 -->
-                    <h3> Etape 2 </h3>
+                    <h2> Etape 2 </h2>
                     <div class="form-container no-display" id="form-container2a">
-                        <h4> Mes Coordonnées </h4>
+                        <h3> Mes Coordonnées </h3>
                         <input type="email"  class="texte" placeholder="email" name="email">
                         <input type="text" class="texte" placeholder="téléphone" name="tel">
                     
@@ -40,7 +40,7 @@ session_start();
                     </div>
 
                     <div class="form-container no-display" id="form-container2b">
-                        <h4> Coordonnées de mon responsable légal </h4>
+                        <h3> Coordonnées de mon responsable légal </h3>
                         <input type="text" class="texte" placeholder="Nom du responsable" name="respnom">
                         <input type="text" class="texte" placeholder="Téléphone" name="resptel">
                         <input type="email" class="texte" placeholder="email" name="respmail">
@@ -50,8 +50,9 @@ session_start();
                     </div>
 
                     <!-- Etape 3 -->
-                    <h3> Etape 3 </h3>
+                    <h2> Etape 3 </h2>
                     <div class="form-container no-display" id="form-container3">
+                            <h3>Judo</h3>
                             <h4>Ceinture</h4>
                             <select name="ceinture" class="texte">
                                 <option value="blanche">blanche</option>
