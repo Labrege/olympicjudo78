@@ -1,5 +1,6 @@
 <?php
   require 'links.php';
+  require 'db.inc.php';
 ?>
 <div class="header-logo">
     <div class="logo-container">

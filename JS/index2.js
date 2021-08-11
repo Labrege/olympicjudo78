@@ -1,5 +1,5 @@
 
-var btns = document.querySelectorAll('.button');
+var btns = document.querySelectorAll('.button_accueil');
 var paginationWrapper = document.querySelector('.pagination-wrapper');
 var bigDotContainer = document.querySelector('.big-dot-container');
 var littleDot = document.querySelector('.little-dot');
