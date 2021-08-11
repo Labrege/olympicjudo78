@@ -50,7 +50,9 @@ $(document).ready(function() {
                 $("#form-container2b").addClass('display');
                 $("#form-container2b").removeClass('no-display');
 
-                if()
+                if($('button[name="etape2"]').click(function(){
+                    console.log('hello');
+                }));
             }
             else{
                 $("#form-container2a").addClass('display');
