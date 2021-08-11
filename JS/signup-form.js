@@ -32,11 +32,6 @@ $(document).ready(function() {
         var prenom = $('input[name="prenom"]').val();
         var nom = $('input[name="nom"]').val();
         var dob = $('input[name="dob"]').val();
-        var email = $('input[name="email"]').val();
-        var tel = $('input[name="tel"]').val();
-        var respnom = $('input[name="respnom"]').val();
-        var resptel = $('input[name="resptel"]').val();
-        var respmail = $('input[name="respmail"]').val();
 
         if (prenom != '' && nom != '' && dob != '') {
             //Calcul de l'age
@@ -51,12 +46,40 @@ $(document).ready(function() {
                 $("#form-container2b").removeClass('no-display');
 
                 if($('button[name="etape2"]').click(function(){
-                    console.log('hello');
+                    var respnom = $('input[name="respnom"]').val();
+                    var resptel = $('input[name="resptel"]').val();
+                    var respmail = $('input[name="respmail"]').val();
+
+                    if (respnom != '' && resptel != '' && respmail != ''){
+                        $("#form-container2b").addClass('no-display');
+                        $("#form-container2b").removeClass('display');
+                        $("#form-container3").addClass('display');
+                        $("#form-container3").removeClass('no-display');
+                    }
+                    else{
+                        console.log('no!')
+                    }
                 }));
             }
             else{
                 $("#form-container2a").addClass('display');
                 $("#form-container2a").removeClass('no-display');
+
+                if($('button[name="etape2"]').click(function(){
+                    var email = $('input[name="email"]').val();
+                    var tel = $('input[name="tel"]').val();
+
+                    if (email != '' && tel != ''){
+                        $("#form-container2a").addClass('no-display');
+                        $("#form-container2a").removeClass('display');
+
+                        $("#form-container3").addClass('display');
+                        $("#form-container3").removeClass('no-display');
+                    }
+                    else{
+                        console.log('no!')
+                    }
+                }));
             }
         } else {
             console.log('not all filled up');
@@ -73,6 +96,22 @@ $(document).ready(function() {
 
         $("#form-container2b").addClass('no-display');
         $("#form-container2b").removeClass('display');
+    }));
+
+    if($('button[name="retour2"]').click(function(){
+        $("#form-container3").addClass('no-display');
+        $("#form-container3").removeClass('display');
+        var dob = $('input[name="dob"]').val();
+        age = CalculAge(dob);
+        
+        if(age<18){
+            $("#form-container2b").addClass('display');
+            $("#form-container2b").removeClass('no-display');
+        }
+        else{
+            $("#form-container2a").addClass('display');
+            $("#form-container2a").removeClass('no-display');
+        }
     }));
 });
 

@@ -44,7 +44,7 @@ session_start();
                     <h3> Etape 2 </h3>
                     <div class="form-container no-display" id="form-container2a">
                         <h4> Mes Coordonnées </h4>
-                            <input type="email"  class="texte" placeholder="email" name="email">
+                        <input type="email"  class="texte" placeholder="email" name="email">
                         <input type="text" class="texte" placeholder="téléphone" name="tel">
                     
                         <button type="button" class="button" name="retour1"> Back </button>
@@ -122,7 +122,9 @@ session_start();
                                     <label for="scales">Option musculation <i class="fa fa-info-circle" aria-hidden="true" title="salle de musculation"></i></label>
                             </div>
                             <div class="prix">220 €</div>
-                            <input class="button" type="submit" name="button3" value="Etape 3"/>
+
+                            <button type="button" class="button" name="retour2"> Back </button>
+                            <button type="button" class="button" name="Finaliser"> Finish </button>
                     </div>
                 </form>
             </div>
