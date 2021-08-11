@@ -3,5 +3,5 @@
 </footer>
 
 
-<script src="JS/index2.js"></script>
+<script src="JS/index2.js?v=<?php echo time(); ?>"></script>
 

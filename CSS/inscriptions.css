@@ -10,8 +10,6 @@ body{
     justify-content: center;
 }
 
-
-
 .inscription-container{
     width: 100%;
     display: flex;
@@ -23,9 +21,9 @@ body{
     width: 95%;
     min-height: 500px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .form-container, .explication-container{
@@ -102,6 +100,7 @@ form h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 300px;
 }
 
 .explication-texte{
