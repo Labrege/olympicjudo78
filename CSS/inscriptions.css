@@ -26,18 +26,25 @@ body{
     align-items: center;
 }
 
-.form-container, .explication-container{
+.form-container{
     width: 500px;
     margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.form-container form{
+
+
+/*.form-container form{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 form h3{
     color:#FFD81F;
@@ -45,7 +52,7 @@ form h3{
     margin-top: 30px;
 }
 
-.form-container form .button{
+.form-container .button{
     width: 30%;
     text-align: center;
     background: #FFD81F;
@@ -58,11 +65,11 @@ form h3{
     margin-top: 30px;
 }
 
-.form-container form .button:hover{
+.form-container .button:hover{
     cursor: pointer;
 }
 
-.form-container form .texte{
+.form-container .texte{
     width: 60%;
     border: none;
     background: none;
@@ -75,21 +82,21 @@ form h3{
     color: white;
 }
 
-.form-container form select option{
+.form-container select option{
     color: #111A2F;
 }
 
-.form-container form input::placeholder{
+.form-container input::placeholder{
     font-size: 1.5rem;
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.form-container form select:focus{  
+.form-container  select:focus{  
     outline: none;
 }
 
-.form-container form input:focus{
+.form-container  input:focus{
     outline: none;
 }
 
