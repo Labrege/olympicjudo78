@@ -55,9 +55,9 @@ body{
 }
 
 
-
 .inscription-info h2{
     color:#FFD81F;
+    background-color: white;
     font-size: 2rem;
     margin-top: 30px;
     padding: 10px;

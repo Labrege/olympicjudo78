@@ -186,7 +186,44 @@ $(document).ready(function() {
     if($('button[name="finaliser"]').click(function(){
         var jourCheckBoxes = $('input[name="chk[]"]:checked').length;
         if (jourCheckBoxes > 0 && $('input[name="droitimage"]').is(':checked')) {
-            console.log("yay");
+            var prenom = $('input[name="prenom"]').val();
+            var nom = $('input[name="nom"]').val();
+            var dob = $('input[name="dob"]').val();
+            
+            var respnom = $('input[name="respnom"]').val();
+            var resptel = $('input[name="resptel"]').val();
+            var respmail = $('input[name="respmail"]').val();
+            var email = $('input[name="email"]').val();
+            var tel = $('input[name="tel"]').val();
+            
+            var ceinture = $('select[name="ceinture"]').val();
+            var cours = $('select[name="cours"]').val();
+            var droitimage = $('input[name="droitimage"]').val();
+            var newsletter = $('input[name="newsletter"]').val();
+            var muscu = $('input[name="muscu"]').val();
+            var jours = [];
+            $('input[name="chk[]"]:checked').each(function () {
+                jours.push($(this).val());
+            });
+            var submit = $('button[name="finaliser"]').val();
+            
+            $(".message").load("inscription_back.php", {
+                prenom: prenom,
+                nom: nom,
+                dob: dob,
+                respnom: respnom,
+                resptel: resptel,
+                respmail:respmail,
+                email:email,
+                tel:tel,
+                jours:jours,
+                ceinture: ceinture,
+                cours:cours,
+                droitimage:droitimage,
+                newsletter:newsletter,
+                muscu:muscu,
+                submit: submit
+            });
         }
         else{
             if(jourCheckBoxes <= 0){
