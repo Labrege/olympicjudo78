@@ -5,7 +5,7 @@ session_start();
 ?>
 <!-- JS -->
 <script src="JS/signup-form.js?v=<?php echo time(); ?>"></script>
-<script src="JS/jquery.cosyAlert.js"></script>
+<script src="JS/jquery.cosyAlert.js?v=<?php echo time(); ?>"></script>
 
 <!-- CSS -->
 <style></style>
@@ -82,34 +82,34 @@ session_start();
                             <h4>Présence au cours </h4>
                             <div class="presence">
                                 <div class="jours">
-                                    <input type="checkbox" name="chk[]" class="check" value=1 >
+                                    <input type="checkbox" name="chk[]" class="check" value=mardi >
                                     <label for="scales">Mardi</label>
                                 </div>
                                 <div class="jours">
-                                    <input type="checkbox" name="chk[]" class="check" value=1 >
+                                    <input type="checkbox" name="chk[]" class="check" value=mercredi >
                                     <label for="scales">Mercredi</label>
                                 </div>
                                 <div class="jours">
-                                    <input type="checkbox" name="chk[]" class="check" value=1 >
+                                    <input type="checkbox" name="chk[]" class="check" value=vendredi >
                                     <label for="scales">Vendredi</label>
                                 </div>
                                 <div class="jours">
-                                    <input type="checkbox" name="chk[]" class="check" value=1 >
+                                    <input type="checkbox" name="chk[]" class="check" value=samedi >
                                     <label for="scales">Samedi</label>
                                 </div>
                             </div>
 
                             <div class=droit>
-                                <input type="checkbox" name="droitimage" id="droitImage" value=1 checked>
+                                <input type="checkbox" name="droitimage" id="droitImage" value=droitImage checked>
                                 <label for="scales">Autoriser le droit a l'image</label>
                             </div>
 
                             <div class=droit>
-                                <input type="checkbox" name="newsleter" value=1 checked>
+                                <input type="checkbox" name="newsletter" value=newsletter checked>
                                 <label for="scales">Recevoir la newsleter </label>
                             </div>
                             <div class="musculation">
-                                    <input type="checkbox" name="muscu" class="check" value=1 >
+                                    <input type="checkbox" name="muscu" class="check" value=musculation >
                                     <label for="scales">Option musculation 220€ <i class="fa fa-info-circle" aria-hidden="true" title="salle de musculation"></i></label>
                             </div>
 
