@@ -12,6 +12,7 @@ session_start();
 
 
 <div class="rest">
+    <div class="message"></div>
     <div class="titre titre-inscription">
             <h1> Mon <span class="titre-color">Inscription <span> </h1>
         </div>

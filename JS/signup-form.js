@@ -186,7 +186,27 @@ $(document).ready(function() {
     if($('button[name="finaliser"]').click(function(){
         var jourCheckBoxes = $('input[name="chk[]"]:checked').length;
         if (jourCheckBoxes > 0 && $('input[name="droitimage"]').is(':checked')) {
-            console.log("yay");
+            var prenom = $('input[name="prenom"]').val();
+            var nom = $('input[name="nom"]').val();
+            var dob = $('input[name="dob"]').val();
+            var respnom = $('input[name="respnom"]').val();
+            var resptel = $('input[name="resptel"]').val();
+            var respmail = $('input[name="respmail"]').val();
+            var email = $('input[name="email"]').val();
+            var tel = $('input[name="tel"]').val();
+            var submit = $('button[name="finaliser"]').val();
+            
+            $(".message").load("inscription_back.php", {
+                prenom: prenom,
+                nom: nom,
+                dob: dob,
+                respnom: respnom,
+                resptel: resptel,
+                respmail:respmail,
+                email:email,
+                tel:tel,
+                submit: submit
+            });
         }
         else{
             if(jourCheckBoxes <= 0){
