@@ -56,9 +56,9 @@ $(document).ready(function() {
                 $("#form-container2b").removeClass('no-display');
 
                 if($('button[name="etape2"]').click(function(){
-                    var respnom = $('input[name="respnom"]').val();
-                    var resptel = $('input[name="resptel"]').val();
-                    var respmail = $('input[name="respmail"]').val();
+                    var respnom = $('input[name="resp1nom"]').val();
+                    var resptel = $('input[name="resp1tel"]').val();
+                    var respmail = $('input[name="resp1mail"]').val();
 
                     if (respnom != '' && resptel != '' && respmail != '' && validateEmail(respmail) == true && validateTel(resptel) == true){
                         $("#form-container2b").addClass('no-display');
@@ -69,40 +69,40 @@ $(document).ready(function() {
                     else{
                         //Message d'erreur pour l'etape 2
                         if(validateEmail(respmail) == false){
-                            $('input[name="respmail"]').addClass('input-error');
+                            $('input[name="resp1mail"]').addClass('input-error');
                             cosyAlert('Veuillez saisir un adresse mail valide', 'error',{ vPos : 'top', hPos : 'center',autoHide : true, autoHideTime : 3000, });
-                            $('input[name="respmail"]').keyup(function(){
-                                $('input[name="respmail"]').removeClass('input-error');
+                            $('input[name="resp1mail"]').keyup(function(){
+                                $('input[name="resp1mail"]').removeClass('input-error');
                             })
                         }
 
                         if(resptel!= '' && validateTel(resptel) == false){
-                            $('input[name="resptel"]').addClass('input-error');
+                            $('input[name="resp1tel"]').addClass('input-error');
                             cosyAlert('Veuillez saisir un numéro valide', 'error',{ vPos : 'top', hPos : 'center',autoHide : true, autoHideTime : 3000, });
-                            $('input[name="resptel"]').keyup(function(){
-                                $('input[name="resptel"]').removeClass('input-error');
+                            $('input[name="resp1tel"]').keyup(function(){
+                                $('input[name="resp1tel"]').removeClass('input-error');
                             })
                         }
 
                         if(respnom == ''){
                             cosyAlert('Veuillez remplir le champ "Nom"', 'error',{ vPos : 'top', hPos : 'center',autoHide : true, autoHideTime : 3000, });
-                            $('input[name="respnom"]').addClass('input-error');
-                            $('input[name="respnom"]').keyup(function(){
-                                $('input[name="respnom"]').removeClass('input-error');
+                            $('input[name="resp1nom"]').addClass('input-error');
+                            $('input[name="resp1nom"]').keyup(function(){
+                                $('input[name="resp1nom"]').removeClass('input-error');
                             })
                         }
                         if(resptel == ''){
                             cosyAlert('Veuillez remplir le champ "Téléphone"', 'error',{ vPos : 'top', hPos : 'center',autoHide : true, autoHideTime : 3000, });
-                            $('input[name="resptel"]').addClass('input-error');
-                            $('input[name="resptel"]').keyup(function(){
-                                $('input[name="resptel"]').removeClass('input-error');
+                            $('input[name="resp1tel"]').addClass('input-error');
+                            $('input[name="resp1tel"]').keyup(function(){
+                                $('input[name="resp1tel"]').removeClass('input-error');
                             })
                         }
                         if(respmail == ''){
                             cosyAlert('Veuillez remplir le champ "Mail"', 'error',{ vPos : 'top', hPos : 'center',autoHide : true, autoHideTime : 3000, });
-                            $('input[name="respmail"]').addClass('input-error');
-                            $('input[name="respmail"]').keyup(function(){
-                                $('input[name="respmail"]').removeClass('input-error');
+                            $('input[name="resp1mail"]').addClass('input-error');
+                            $('input[name="resp1mail"]').keyup(function(){
+                                $('input[name="resp1mail"]').removeClass('input-error');
                             })
                         }
                     }
@@ -182,17 +182,89 @@ $(document).ready(function() {
         }
     }));
 
+    
+
+    if ($('select[name="cours"]').click(function(){
+        var cours = $('select[name="cours"]').val();
+        console.log(1);
+        console.log(cours);
+        if (cours=="Cadet-junior-senior"){
+            $(".musculation").removeClass('no-display');
+            $(".mardi").removeClass('no-display');
+            $(".mercredi").addClass('no-display');
+            $(".vendredi").removeClass('no-display');
+            $(".samedi").addClass('no-display');
+        }
+        else{
+            $(".musculation").addClass('no-display');
+        }
+
+        if(cours=="baby"){
+            $(".mardi").addClass('no-display');
+            $(".mercredi").removeClass('no-display');
+            $(".vendredi").removeClass('no-display');
+            $(".samedi").removeClass('no-display');
+        }
+        else if(cours=="eveil" || cours=="mini-poussin"|| cours=="poussin" || cours=="beinjamin")
+        {
+            $(".mardi").removeClass('no-display');
+            $(".mercredi").removeClass('no-display');
+            $(".vendredi").removeClass('no-display');
+            $(".samedi").removeClass('no-display');
+        } 
+        else if (cours=="minime")
+        {
+            $(".mardi").removeClass('no-display');
+            $(".mercredi").removeClass('no-display');
+            $(".vendredi").removeClass('no-display');
+            $(".samedi").addClass('no-display');
+        }
+       
+        //prix 
+        if(cours=="baby")
+        {
+            $(".180").removeClass('no-display');
+            $(".220").addClass('no-display');
+            $(".330").addClass('no-display');
+        }
+        else{
+            $(".180").addClass('no-display');
+            $(".220").removeClass('no-display');
+            $(".330").addClass('no-display');
+        }
+
+    }));
+
+
+    if ($('input[name="muscu"]').click(function(){
+
+        if($('input[name="muscu"]').is(':checked'))
+        {
+            $(".180").addClass('no-display');
+            $(".220").addClass('no-display');
+            $(".330").removeClass('no-display');
+        }else{
+            $(".180").addClass('no-display');
+            $(".220").removeClass('no-display');
+            $(".330").addClass('no-display');
+        }
+    }));
+
     //Submit à l'étape 3
     if($('button[name="finaliser"]').click(function(){
         var jourCheckBoxes = $('input[name="chk[]"]:checked').length;
-        if (jourCheckBoxes > 0 && $('input[name="droitimage"]').is(':checked')) {
+       
+        if ( $('input[name="droitimage"]').is(':checked')) {
             var prenom = $('input[name="prenom"]').val();
             var nom = $('input[name="nom"]').val();
             var dob = $('input[name="dob"]').val();
             
-            var respnom = $('input[name="respnom"]').val();
-            var resptel = $('input[name="resptel"]').val();
-            var respmail = $('input[name="respmail"]').val();
+            var resp1nom = $('input[name="resp1nom"]').val();
+            var resp1tel = $('input[name="resp1tel"]').val();
+            var resp1mail = $('input[name="resp1mail"]').val();
+            var resp2nom = $('input[name="resp2nom"]').val();
+            var resp2tel = $('input[name="resp2tel"]').val();
+            var resp2mail = $('input[name="resp2mail"]').val();
             var email = $('input[name="email"]').val();
             var tel = $('input[name="tel"]').val();
             
@@ -200,27 +272,64 @@ $(document).ready(function() {
             var cours = $('select[name="cours"]').val();
             var droitimage = $('input[name="droitimage"]').val();
             var newsletter = $('input[name="newsletter"]').val();
-            var muscu = $('input[name="muscu"]').val();
-            var jours = [];
-            $('input[name="chk[]"]:checked').each(function () {
-                jours.push($(this).val());
-            });
+
+            if ($('input[name="mardi"]').is(':checked'))
+            {
+                mardi=1;
+            }else{
+                mardi=0;
+            }
+            if ($('input[name="mercredi"]').is(':checked'))
+            {
+                mercredi=1;
+            }else{
+                mercredi=0;
+            }
+            if ($('input[name="vendredi"]').is(':checked'))
+            {
+                vendredi=1;
+            }else{
+                vendredi=0;
+            }
+            if ($('input[name="samedi"]').is(':checked'))
+            {
+                samedi=1;
+            }else{
+                samedi=0;
+            }
+            if ($('input[name="musculation"]').is(':checked'))
+            {
+                muscu=1;
+            }else{
+                muscu=0;
+            }
+            console.log(mardi);
+            console.log(mercredi);
+            console.log(vendredi);
+            console.log(samedi);
+           
             var submit = $('button[name="finaliser"]').val();
             
             $(".message").load("inscription_back.php", {
                 prenom: prenom,
                 nom: nom,
                 dob: dob,
-                respnom: respnom,
-                resptel: resptel,
-                respmail:respmail,
-                email:email,
+                resp1nom: resp1nom,
+                resp1tel: resp1tel,
+                resp1mail:resp1mail,
+                respnom: resp2nom,
+                resptel: resp2tel,
+                respmail:resp2mail,
+                email: email,
                 tel:tel,
-                jours:jours,
                 ceinture: ceinture,
                 cours:cours,
                 droitimage:droitimage,
                 newsletter:newsletter,
+                mardi:mardi,
+                mercredi:mercredi,
+                vendredi:vendredi,
+                samedi:samedi,
                 muscu:muscu,
                 submit: submit
             });

@@ -242,7 +242,7 @@
 .transition-next .big-dot-container {
   animation: big-dot-container--animation-next 0.3s forwards;
 }
-.photo-container .button {
+.photo-container .button_accueil {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);

@@ -182,7 +182,6 @@ margin: 10%;
 
 .musculation{
     margin: 15px;
-    display: flex;
     width:100%;
     align-items: center;
     color: white;
@@ -201,7 +200,6 @@ margin: 10%;
 .jours{
     color: white;
     margin-bottom: 15px;
-    display: flex;
     width:100%;
     align-items: center;
 }
@@ -211,7 +209,37 @@ margin: 10%;
     font-size: 1.5em;
 }
 
+.droit{
+    color: white;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+.prix{
+    color: white;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
 
+.prix label{
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+
+.prix p{
+    margin-top: 30px;
+}
+
+.message {
+    color: rgb(6, 182, 6);
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    
+    font-size: 1.5em;
+}
 
 @media screen and (max-width: 768px){
     .form-container, .explication-container{
