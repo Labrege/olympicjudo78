@@ -2,6 +2,10 @@
     require 'header.php'
 ?>
 <div class="rest">
+
+<div class="news">
+  <p>Reprise des cours le 1er septembre</p>
+</div>
   <!-- La Page Index.php -->
   <div class="photo-container">
     <div class="container-image img1"> 

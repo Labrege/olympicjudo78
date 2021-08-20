@@ -1,9 +1,9 @@
 <?php
 
-$servername = "mysql.hostinger.fr";
-$dbusername = "u556000132_antoinebregeon";
-$dbpassword = "Maxime2004";
-$dbname = "u556000132_olympicjudo78";
+$servername = "localhost";
+$dbusername = "root";
+$dbpassword = "";
+$dbname = "olympicjudo78";
 
 $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
 

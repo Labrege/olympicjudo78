@@ -3,6 +3,19 @@
 .rest{
   overflow-x: hidden; 
 }
+.news{
+  background-color: #FFD81F;
+  color: #384284;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.news p{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
 .container-image{
   position: relative;
   width: 100%;
@@ -276,6 +289,9 @@
       font-size: 2em;
   }
 
+  .news p{
+    font-size: 20px;
+  }
   
 
 }

@@ -47,6 +47,7 @@
                         <li class="contenu_plan"><img src="image/tick.png" alt=""> <p>jusqu'à 4 cours/ semaine </p></li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Ju-jitsu à partir de 14 ans</p> </li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Taiso à partir de 14 ans</p></li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Buchelois : -10%</p></li>
                     </ul>
                 </div>
             
@@ -72,7 +73,7 @@
                         <li class="contenu_plan"><img src="image/tick.png" alt=""> <p>2 cours par semaine </p></li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Judo, Ju-Jitsu, Taïso</p> </li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Accès illimité à la </br>salle de musculation</p></li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Buchelois : -10%</p> </li>
+                        
                     </ul>
                 </div>
                 
