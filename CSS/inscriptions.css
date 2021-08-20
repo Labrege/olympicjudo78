@@ -227,12 +227,12 @@ margin: 10%;
     margin: 10px;
     align-items: center;
     text-align: center;
-    width: 80%;
+    width: 100vw;
 }
 
 .prix p{
     margin-top: 30px;
-    
+    width: 90%;
     margin: 10px   ;
 }
 

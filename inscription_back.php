@@ -6,9 +6,16 @@ if(isset($_POST['submit'])){
     $resp1nom = $_POST['resp1nom'];
     $resp1tel = $_POST['resp1tel'];
     $resp1mail = $_POST['resp1mail'];
-    $res2pnom = $_POST['resp2nom'];
-    $res2ptel = $_POST['resp2tel'];
-    $res2pmail = $_POST['resp2mail'];
+    if ( isset($_POST['resp2nom']))
+    {$resp2nom = $_POST['resp2nom'];}
+    else{$resp2nom = " ";}
+    if ( isset($_POST['resp2tel']))
+    {$resp2tel = $_POST['resp2tel'];}
+    else{$resp2tel = " ";}
+    if ( isset($_POST['resp2mail']))
+    {$resp2mail = $_POST['resp2mail'];}
+    else{$resp2mail = " ";}
+    
     $mail = $_POST['email'];
     $tel = $_POST['tel']; 
     $ceinture = $_POST['ceinture'];    
@@ -22,11 +29,12 @@ if(isset($_POST['submit'])){
     $vendredi=$_POST['vendredi'];
     $samedi=$_POST['samedi'];
     $frere=0;
+    $sante=" ";
     require_once 'db.inc.php';
     
     $sql= "INSERT INTO inscription (Nom,Prenom, Dates,Mail, Telephone, Resp1Nom, Resp1tel, Resp1mail, Resp2Nom, Resp2tel, Resp2mail, sante, ceinture, cours,musculation,Frere,Mardi,Mercredi,Vendredi,Samedi) 
     VALUES ('".$nom."','".$prenom."','".$date."','".$mail."','".$tel."','".
-    $resp1nom."','".$resp1tel."','".$resp1mail."','".$resp2nom."','".$resp2tel."','".$res2pmail."','".
+    $resp1nom."','".$resp1tel."','".$resp1mail."','".$resp2nom."','".$resp2tel."','".$resp2mail."','".
      $sante."','".$ceinture."','".$cours."','".$muscu."','".$frere."','".$mardi."','".
      $mercredi."','".$vendredi."','".$samedi."')";
     
