@@ -6,13 +6,19 @@
   color: #384284;
   height: 100px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.news p{
+.news .grand p {
   font-size: 30px;
   text-align: center;
   font-weight: bold;
+}
+.news .petit p {
+  font-size: 20px;
+  text-align: center;
+  
 }
 .container-image{
   position: relative;
@@ -31,16 +37,16 @@
 }
 
 .img1{
-  background:url(../../image/JUDO_accueil-min.png) center no-repeat;
+  background:url(../../image/JUDO_accueil-min.avif) center no-repeat;
   background-size: cover;
 }
 
 .img2{
-  background:url(../../image/BABY-GYM_accueil-min.png) center no-repeat;
+  background:url(../../image/BABY-GYM_accueil-min.avif) center no-repeat;
   background-size: cover;
 }
 .img3{
-  background:url(../../image/JUDO-MUSCULATION_accueil-min.png) center no-repeat;
+  background:url(../../image/JUDO-MUSCULATION_accueil-min.avif) center no-repeat;
   background-size: cover;
 }
 

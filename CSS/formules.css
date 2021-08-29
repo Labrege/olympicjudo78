@@ -66,12 +66,9 @@
 }
 
 
-.card svg{
+
+.card-form .icon_baby{
     height: 10%;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 1;
 }
 
 .container-formule .card-form .prix_par_mois{

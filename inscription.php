@@ -1,4 +1,11 @@
 <?php
+    require 'links.php'
+?>
+<title> Inscription en ligne</title>
+<meta name="description" content="L'inscription en ligne est maintenant disponible, on vous attend!!">
+</head>
+
+<?php
 require 'header.php';
 session_start();
 //if (time() < strtotime('+18 years', strtotime($_SESSION['user']['date'])))
@@ -140,6 +147,8 @@ session_start();
     require 'footer.php';
 ?>
     <script src="JS/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>    
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </body>
 
 <!-- Autres

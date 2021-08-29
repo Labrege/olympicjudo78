@@ -1,18 +1,23 @@
 <?php
-    require 'header.php'
+    require 'links.php'
 ?>
 
+</head>
+
+<title> Nos Formules</title>
+<meta name="description" content="formules pour tout le monde petit et grands, avec option musculation">
+
+<?php
+    require 'header.php'
+?>
+</head>
 <div class="rest">
     <div class="titre titre-form">
         <h1> Les <span class="titre-color"> Formules </span> </h1>
     </div>
     <div class="container-formule">
             <div class="card-form">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                    width="48" height="48"
-                    viewBox="0 0 172 172"
-                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M143.33333,14.33333c-3.58333,0 -7.16947,1.43053 -10.03614,4.2972l-5.01106,5.02506c-2.86667,2.86667 -7.16947,2.86667 -10.03614,0c-2.86667,-2.86667 -7.16947,-2.86667 -10.03614,0l-5.92089,5.9209c-2.72989,-0.74632 -5.52918,-1.27376 -8.41244,-1.27376c-8.6,0 -16.76272,3.43888 -22.99772,9.60221l-50.46061,50.5306c-8.17,9.17333 -8.01939,22.94117 0.29395,31.32617l31.52214,31.52213c4.22833,4.15667 9.74779,6.31282 15.48112,6.31282c5.66167,0 11.40732,-2.08449 16.20899,-6.31282l50.16667,-50.16667c6.16333,-6.235 9.60221,-14.39772 9.60221,-22.99772c0,-3.27252 -0.65297,-6.43917 -1.6097,-9.50423l5.54297,-5.54297c2.86667,-2.86667 2.86667,-7.16947 0,-10.03613c-2.15,-2.15 -2.15279,-6.4556 0.71387,-9.32227l5.02507,-5.01107c5.73333,-5.73333 5.73333,-14.33893 0,-20.07227c-2.86667,-2.86667 -6.4528,-4.2972 -10.03614,-4.2972zM102.61491,79.36524c1.83825,-0.02867 3.68289,0.65004 5.10905,2.02962l7.82455,7.69857c2.83083,2.80217 2.85132,7.36677 0.04199,10.1761l-0.05599,0.042c-2.78783,2.78783 -7.28995,2.80832 -10.09212,0.04199l-7.71257,-7.61458c-2.8595,-2.76633 -2.94147,-7.3306 -0.16797,-10.1901c1.38317,-1.42258 3.21481,-2.15492 5.05306,-2.18359zM85.4541,96.66601c1.84183,0 3.67639,0.69494 5.08105,2.09961l7.68457,7.82455c2.752,2.795 2.73868,7.31145 -0.04199,10.09212l-0.042,0.04199c-2.8165,2.8165 -7.38827,2.79601 -10.1761,-0.04199l-7.60059,-7.74056c-2.80933,-2.80933 -2.80933,-7.36677 0,-10.17611c1.40467,-1.40467 3.25322,-2.09961 5.09505,-2.09961zM68.2373,114.58268c1.84183,0 3.69039,0.69494 5.09505,2.09961l7.33463,7.47461c2.75917,2.795 2.72468,7.29746 -0.05599,10.07813l-0.04199,0.04199c-2.81651,2.8165 -7.38111,2.79601 -10.17611,-0.04199l-7.23665,-7.37663c-2.80933,-2.80933 -2.80933,-7.36677 0,-10.17611c1.40467,-1.40467 3.23922,-2.09961 5.08105,-2.09961z"></path></g></g></svg>
-                                    
+                <img src="image/BABY-GYM.png" class="icon_baby" alt="icone baby gym buchelay">             
                 <div class="titre-formule">
                     <h2>Baby Gym-Judo</h2>
                     </div>
@@ -20,9 +25,9 @@
                     <ul class="liste_contenu_plan">
                         <li class="contenu_plan"><p>Cotisation Club: 180€</p></li>
                         <li class="contenu_plan"><p>3-4 ans</p></li>
-                        <li class="contenu_plan"><img src="image/tick.png" alt=""> <p>1 ou 2 cours par semaine</p></li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Mercredi, Vendredi ou Samedi </p> </li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Buchelois : -10%</p></li>
+                        <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>1 ou 2 cours par semaine</p></li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Mercredi, Vendredi ou Samedi </p> </li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Buchelois : -10%</p></li>
                     </ul>
                 </div>
                 <div class="boite-bouton-valider">
@@ -44,10 +49,10 @@
                         <li class="contenu_plan"><p>Cotisation Club: 220€</p></li>
                         <li class="contenu_plan"><p>Licence-Assurance Fédérale: 40€</p></li>
                         <li class="contenu_plan"><p>A partir de 5 ans</p></li>
-                        <li class="contenu_plan"><img src="image/tick.png" alt=""> <p>jusqu'à 4 cours/ semaine </p></li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Ju-jitsu à partir de 14 ans</p> </li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Taiso à partir de 14 ans</p></li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Buchelois : -10%</p></li>
+                        <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>jusqu'à 4 cours/ semaine </p></li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Ju-jitsu à partir de 14 ans</p> </li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Taiso à partir de 14 ans</p></li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Buchelois : -10%</p></li>
                     </ul>
                 </div>
             
@@ -70,9 +75,9 @@
                         <li class="contenu_plan"><p>Cotisation Club: 330€</p></li>
                         <li class="contenu_plan"><p>Licence-Assurance Fédérale: 40€</p></li>
                         <li class="contenu_plan"><p>A partir de 16 ans</p></li>
-                        <li class="contenu_plan"><img src="image/tick.png" alt=""> <p>2 cours par semaine </p></li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Judo, Ju-Jitsu, Taïso</p> </li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt=""><p>Accès illimité à la </br>salle de musculation</p></li>
+                        <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>2 cours par semaine </p></li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Judo, Ju-Jitsu, Taïso</p> </li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Accès illimité à la </br>salle de musculation</p></li>
                         
                     </ul>
                 </div>

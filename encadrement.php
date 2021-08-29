@@ -1,4 +1,12 @@
 <?php
+    require 'links.php'
+?>
+
+<title> Enseignement: Stephane BREGEON</title>
+<meta name="description" content="Stephane Bregeon, ancien atlhete de haut niveau et entraineur de nombreux champion sera le professeur principale">
+
+</head>
+<?php
     require 'header.php'
 ?>
 <div class="rest">
@@ -10,7 +18,7 @@
         <div class="introduction">
             <div class="txt_img">
                 <div class="intro_boite">
-                    <img src="image/STEPH.jpg" alt="photo_professeur">
+                    <img src="image/STEPH.jpg" alt="Stephane BREGEON">
                 </div>
                 <div class="intro_boite">  
                     <h2> Stéphane BREGEON</h2>
@@ -35,7 +43,7 @@
             <div class="imagejeune">
                 <div class="txt_img">
                     <div class="intro_boite"> 
-                        <img src="image/steph_rouge.jpg" alt="steph_rouge">
+                        <img src="image/steph_rouge.jpg" alt="stephane bregeon avec jean luc Rouger">
                     </div>  
                     <div class="intro_boite"> 
                         <p>Accueil à l’aéroport de Jean-Luc ROUGE, après son titre de Champion du Monde en 1975
@@ -45,7 +53,7 @@
                 </div>
                 <div class="txt_img">
                     <div class="intro_boite"> 
-                        <img src="image/tripet.jpg" alt="tripet">
+                        <img src="image/tripet.jpg" alt="Stephane BRegeon et Tripet">
                     </div>
                     <div class="intro_boite"> 
                         <p>Stéphane Brégeon avec Jean-Pierre TRIPET, 
@@ -64,13 +72,13 @@
                         <p>Champion de France Junior, il devient Vice-Champion d'Europe Junior à Lisbonne en 1980.</p>
                     </div>
                     <div class="intro_boite"> 
-                        <img class="img1" src="image/Europe_Junior.jpg" alt="europe junior">
+                        <img class="img1" src="image/Europe_Junior.jpg" alt="Stephane BREGEON 2eme au europe junior">
                     </div>
                     
                 </div>
                 <div class="txt_img">
                     <div class="intro_boite"> 
-                        <img  class="img2" src="image/kano.png" alt="coupe kano">
+                        <img  class="img2" src="image/kano.png" alt="Stephane BREGEON Poduim coupe kano">
                     </div>
                     <div class="intro_boite"> 
                         <p>En seniors, il se classe à plusieurs reprises sur le podium des championnats de France (2ème et 3ème). <br>Champion d'Europe par Equipes des nations et Champion du monde militaire,<br> il participe et est médaillé aux plus prestigieux tournois internationaux tel que le Grand Slam de Paris (3ème ) ou le Grand Slam de Tokyo (3ème ). </p>
@@ -111,7 +119,7 @@
 
             <div class="athlete_entrainer">
                 <div class="txt_img">
-                    <div class="intro_boite hauteur"><img src="image/Tayot.jpg" alt="pascal Tayot"></div>
+                    <div class="intro_boite hauteur"><img src="image/Tayot.jpg" alt="Pascal Tayot"></div>
                     <div class="intro_boite"><p>Cécile NOWAK, Championne Olympique</p>
                     <p>Pascal TAYOT, Vice-Champion Olympique</p></div>
                     
@@ -149,7 +157,7 @@
                 </div>
 
                 <div class="txt_img">
-                    <div class="intro_boite largeur"><img src="image/Darcel.jpg" alt="Darcel Yanzi"></div>
+                    <div class="intro_boite largeur"><img src="image/Darcel.JPG" alt="Darcel Yanzi"></div>
                     <div class="intro_boite">
                     <p>Darcel Yanzi : Champion du monde</p> </div>
                  

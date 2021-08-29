@@ -1,10 +1,24 @@
 <?php
+    require 'links.php'
+?>
+<title>Olympic judo 78 Buchelay Mantes</title>
+<meta name="description" content="Venez decouvrir le judo pour toute la famille, dans le nouveau club de buchelay et ces manifiques instalations">
+</head>
+
+<?php
     require 'header.php'
 ?>
+
 <div class="rest">
 
 <div class="news">
-  <p>Reprise des cours le 1er septembre</p>
+  <div class="grand">
+    <p>Reprise des cours le 7 septembre</p>
+  </div>
+  <div class="petit">
+    <p> permanance pour les inscriptions sur les heures de cours a partir du 30 aout</p>
+  </div>
+  
 </div>
   <!-- La Page Index.php -->
   <div class="photo-container">
@@ -88,25 +102,25 @@
               <div class="reseaux-boite1">
                   <a href="https://www.facebook.com/olympicjudo78" target="_blank">
                       <div class="reseaux-info">
-                          <img src="image/facebook.png" alt="">
+                          <img src="image/facebook.png" alt="facebook icone">
                           <h2> @Olympic Judo78</h2>
                       </div>
                   </a>
                   <a href="https://www.instagram.com/olympicjudo78/?hl=fr" target="_blank">
                       <div class="reseaux-info">
-                          <img src="image/instagram.png" alt="">
+                          <img src="image/instagram.png" alt="instagram icone">
                           <h2> Olympic Judo78 </h2>
                       </div>
                   </a>
                   <a href="#">
                       <div class="reseaux-info">
-                          <img src="image/mail.png" alt="">
+                          <img src="image/mail.png" alt="mail icone">
                           <a href="mailto:olympicjudo78@gmail.com"><h2>OlympicJudo78@gmail.com </h2></a>
                       </div>
                   </a>
               </div>
               <div class="reseaux-boite2">
-              <h1> Restez informer </h1>
+              <h1> Restez informé </h1>
               <form action="#">
                   <input type="text" name="Nom" placeholder="Nom">
                   <input type="text" name="Prenom" placeholder="Prenom">

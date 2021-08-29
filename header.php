@@ -1,10 +1,9 @@
 <?php
-  require 'links.php';
   require 'db.inc.php';
 ?>
 <div class="header-logo">
     <div class="logo-container">
-      <a href="index.php"><img class= "logo_club" src="image/logo_ojmb.png" alt="logo-test"></a>
+      <a href="index.php"><img class= "logo_club" src="image/logo_ojmb.avif" alt="logo-test"></a>
     </div>
     <div class="hamburger-menu" onclick="onClick()">
         <div class="ligne ligne-1"></div>

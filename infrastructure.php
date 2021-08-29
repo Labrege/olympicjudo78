@@ -1,6 +1,15 @@
 <?php
+    require 'links.php'
+?>
+
+<title> Judo à la Plaine des Sports Buchelay</title>
+<meta name="description" content="Le dojo de 650m² se trouve dans le complexe ultra-moderne de la Plaine des Sports Grigore-Obreja">
+
+</head>
+<?php
 require 'header.php'
 ?>
+
 <div class="rest">
     <div class="titre titre-inf">
             <h1>Les <span class="titre-color">Infrastructures <span> </h1>
