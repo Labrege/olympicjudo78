@@ -1,6 +1,4 @@
-<?php
-    require 'links.php'
-?>
+
 <title> Inscription en ligne</title>
 <meta name="description" content="L'inscription en ligne est maintenant disponible, on vous attend!!">
 </head>
@@ -102,15 +100,15 @@ session_start();
                                     <input type="checkbox" name="mardi" class="check" value=1 >
                                     <label for="scales">Mardi</label>
                                 </div>
-                                <div class="jours mercredi no-display">
+                                <div class="jours mercredi ">
                                     <input type="checkbox" name="mercredi" class="check" value=1 >
                                     <label for="scales">Mercredi</label>
                                 </div>
-                                <div class="jours vendredi no-display">
+                                <div class="jours vendredi ">
                                     <input type="checkbox" name="vendredi" class="check" value=1 >
                                     <label for="scales">Vendredi</label>
                                 </div>
-                                <div class="jours samedi no-display">
+                                <div class="jours samedi ">
                                     <input type="checkbox" name="samedi" class="check" value=1 >
                                     <label for="scales">Samedi</label>
                                 </div>
@@ -145,6 +143,9 @@ session_start();
 </div>
 <?php
     require 'footer.php';
+?>
+<?php
+    require 'links.php'
 ?>
     <script src="JS/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>    

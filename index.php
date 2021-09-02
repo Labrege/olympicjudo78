@@ -1,6 +1,20 @@
-<?php
-    require 'links.php'
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/header.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href=" CSS/accueil/accueil.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href=" CSS/accueil/apropos.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href=" CSS/accueil/reseaux.css?v=<?php echo time(); ?>">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="CSS/jquery.cosyAlert.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <title>Olympic judo 78 Buchelay Mantes</title>
 <meta name="description" content="Venez decouvrir le judo pour toute la famille, dans le nouveau club de buchelay et ces manifiques instalations">
 </head>
@@ -16,7 +30,7 @@
     <p>Reprise des cours le 7 septembre</p>
   </div>
   <div class="petit">
-    <p> permanance pour les inscriptions sur les heures de cours a partir du 30 aout</p>
+    <p> permanance pour les inscriptions sur les heures de cours à partir du 30 août</p>
   </div>
   
 </div>
@@ -131,7 +145,6 @@
       </div>    
   </div>
 </div>
-
 <?php
     require 'footer.php'
 ?>
