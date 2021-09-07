@@ -188,6 +188,13 @@ $(document).ready(function() {
         var cours = $('select[name="cours"]').val();
         console.log(1);
         console.log(cours);
+        if (cours=="vide"){
+            $(".musculation").addClass('no-display');
+            $(".mardi").addClass('no-display');
+            $(".mercredi").addClass('no-display');
+            $(".vendredi").addClass('no-display');
+            $(".samedi").addClass('no-display');
+        }
         if (cours=="Cadet-junior-senior"){
             $(".musculation").removeClass('no-display');
             $(".mardi").removeClass('no-display');
@@ -258,6 +265,8 @@ $(document).ready(function() {
             var prenom = $('input[name="prenom"]').val();
             var nom = $('input[name="nom"]').val();
             var dob = $('input[name="dob"]').val();
+            var sexe=$('input[name="sexe"]').val();
+            var ville=$('input[name="ville"]').val();
             
             var resp1nom = $('input[name="resp1nom"]').val();
             var resp1tel = $('input[name="resp1tel"]').val();
@@ -314,6 +323,8 @@ $(document).ready(function() {
                 prenom: prenom,
                 nom: nom,
                 dob: dob,
+                sexe: sexe,
+                ville: ville,
                 resp1nom: resp1nom,
                 resp1tel: resp1tel,
                 resp1mail:resp1mail,
@@ -333,6 +344,8 @@ $(document).ready(function() {
                 muscu:muscu,
                 submit: submit
             });
+            setTimeout(function(){location.reload()}, 10000); 
+            
         }
         else{
             if(jourCheckBoxes <= 0){

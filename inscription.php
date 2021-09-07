@@ -1,4 +1,7 @@
 
+<?php
+require 'links.php';
+?>
 <title> Inscription en ligne</title>
 <meta name="description" content="L'inscription en ligne est maintenant disponible, on vous attend!!">
 </head>
@@ -30,7 +33,17 @@ session_start();
                         <h3> Mes informations personnelles </h3>
                         <input type="text" class="texte" placeholder="Prenom" name="prenom">
                         <input type="text" class="texte" placeholder="Nom" name="nom">
+                        <div class="sexe">
+                            <h4>Sexe</h4>
+                            <br>
+                            <input type="radio" placeholder="M" name="sexe" value="M">
+                            M <br><br>
+                            <input type="radio" placeholder="F" name="sexe" value="F">
+                            F <br>
+                        </div>
+                    
                         <input type="date" class="texte" placeholder="date" name="dob">
+                        <input type="texte" class="texte" placeholder="Lieu de résidence (Ville)" name="ville">
                         <button type="button" class="button" name="etape1"> Next </button>                   
                     </div>
 
@@ -66,6 +79,7 @@ session_start();
                             <h3>Judo</h3>
                             <h4>Ceinture</h4>
                             <select name="ceinture" class="texte">
+                                <option value="vide">    </option>
                                 <option value="blanche">blanche</option>
                                 <option value="blanche-jaune">blanche-jaune</option>
                                 <option value="jaune">jaune</option>
@@ -80,6 +94,7 @@ session_start();
                             </select>
                             <h4>Cours</h4>
                             <select name="cours" class="texte" required>
+                                <option value="vide">    </option>
                                 <option value="baby">baby gym_judo </option>
                                 <option value="eveil">eveil-judo</option>
                                 <option value="mini-poussin">mini-poussins</option>
@@ -100,15 +115,15 @@ session_start();
                                     <input type="checkbox" name="mardi" class="check" value=1 >
                                     <label for="scales">Mardi</label>
                                 </div>
-                                <div class="jours mercredi ">
+                                <div class="jours mercredi no-display">
                                     <input type="checkbox" name="mercredi" class="check" value=1 >
                                     <label for="scales">Mercredi</label>
                                 </div>
-                                <div class="jours vendredi ">
+                                <div class="jours vendredi no-display">
                                     <input type="checkbox" name="vendredi" class="check" value=1 >
                                     <label for="scales">Vendredi</label>
                                 </div>
-                                <div class="jours samedi ">
+                                <div class="jours samedi no-display">
                                     <input type="checkbox" name="samedi" class="check" value=1 >
                                     <label for="scales">Samedi</label>
                                 </div>

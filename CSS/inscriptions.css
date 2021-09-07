@@ -109,6 +109,11 @@ body{
     color: white;
 }
 
+.sexe{
+    color: white;
+    
+}
+
 .form-container .input-error{
     width: 60%;
     border: none;
