@@ -32,10 +32,11 @@ if(isset($_POST['submit'])){
     $samedi=$_POST['samedi'];
     $frere=0;
     $sante=" ";
+    $date_inscription=date("Y-m-d H:i:s");
     require_once 'db.inc.php';
     
-    $sql= "INSERT INTO inscription (Nom,Prenom,Sexe, Dates,Ville,Mail, Telephone, Resp1Nom, Resp1tel, Resp1mail, Resp2Nom, Resp2tel, Resp2mail, sante, ceinture, cours,musculation,Frere,Mardi,Mercredi,Vendredi,Samedi) 
-    VALUES ('".$nom."','".$prenom."','".$sexe."','".$date."','".$ville."','".$mail."','".$tel."','".
+    $sql= "INSERT INTO inscription (Date_inscription,Nom,Prenom,Sexe, Date_naissance,Ville,Mail, Telephone, Resp1Nom, Resp1tel, Resp1mail, Resp2Nom, Resp2tel, Resp2mail, sante, ceinture, cours,musculation,Frere,Mardi,Mercredi,Vendredi,Samedi) 
+    VALUES ('".$date_inscription."','".$nom."','".$prenom."','".$sexe."','".$date."','".$ville."','".$mail."','".$tel."','".
     $resp1nom."','".$resp1tel."','".$resp1mail."','".$resp2nom."','".$resp2tel."','".$resp2mail."','".
      $sante."','".$ceinture."','".$cours."','".$muscu."','".$frere."','".$mardi."','".
      $mercredi."','".$vendredi."','".$samedi."')";

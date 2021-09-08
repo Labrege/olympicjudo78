@@ -90,7 +90,7 @@ session_start();
                                 <option value="verte-bleu">verte-bleu</option>
                                 <option value="bleu">bleu</option>
                                 <option value="marron">marron</option>
-                                <option value="noir">noir</option>
+                                <option value="noir">noire</option>
                             </select>
                             <h4>Cours</h4>
                             <select name="cours" class="texte" required>
