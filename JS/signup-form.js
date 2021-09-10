@@ -212,7 +212,7 @@ $(document).ready(function() {
             $(".vendredi").removeClass('no-display');
             $(".samedi").removeClass('no-display');
         }
-        else if(cours=="eveil" || cours=="mini-poussin"|| cours=="poussin" || cours=="beinjamin")
+        else if(cours=="eveil" || cours=="mini-poussin"|| cours=="poussins" || cours=="beinjamins")
         {
             $(".mardi").removeClass('no-display');
             $(".mercredi").removeClass('no-display');
