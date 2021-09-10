@@ -1,5 +1,6 @@
 
 <?php
+//test connexion github/hostinger
 require 'links.php';
 ?>
 <title> Inscription en ligne</title>
