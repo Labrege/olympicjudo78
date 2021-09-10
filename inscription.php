@@ -16,10 +16,6 @@ session_start();
 <script src="JS/signup-form.js?v=<?php echo time(); ?>"></script>
 <script src="JS/jquery.cosyAlert.js?v=<?php echo time(); ?>"></script>
 
-<!-- CSS -->
-<style></style>
-
-
 <div class="rest">
     
     <div class="titre titre-inscription">
