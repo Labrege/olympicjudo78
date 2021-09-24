@@ -27,11 +27,9 @@
 
 <div class="news">
   <div class="grand">
-    <p>Reprise des cours le 7 septembre</p>
+    <p>Nouveau horaire des cours</p>
   </div>
-  <div class="petit">
-    <p> permanance pour les inscriptions sur les heures de cours à partir du 30 août</p>
-  </div>
+  
   
 </div>
   <!-- La Page Index.php -->
