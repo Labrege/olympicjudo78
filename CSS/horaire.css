@@ -12,10 +12,11 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
-    color: white;
+    color: rgba(160, 160, 160, 0.904);
 }
 
 .horaire-container img{
     max-width: 90vw;
     height: auto;
+    border-bottom: 20px;
 }
