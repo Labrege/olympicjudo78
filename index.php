@@ -45,7 +45,7 @@
     </div>
     <div class="valeurs-container contenue_cacher">
         <div class="valeurs-texte">
-          <h2> Baby Gym-Judo </h2>
+          <h2> Baby Judo-Gym </h2>
           <p>Développement de la motricité et de la coordination</p>
         </div>
     </div>

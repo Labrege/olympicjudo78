@@ -19,7 +19,7 @@
             <div class="card-form">
                 <img src="image/BABY-GYM.png" class="icon_baby" alt="icone baby gym buchelay">             
                 <div class="titre-formule">
-                    <h2>Baby Gym</h2>
+                    <h2>Baby <Judo-Gym></Judo-Gym></h2>
                     </div>
                 <div class="contenue_propose">
                     <ul class="liste_contenu_plan">

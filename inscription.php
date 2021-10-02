@@ -92,7 +92,7 @@ session_start();
                             <h4>Cours</h4>
                             <select name="cours" class="texte" required>
                                 <option value="vide">    </option>
-                                <option value="baby">baby gym_judo </option>
+                                <option value="baby">baby judo_gym </option>
                                 <option value="eveil">eveil-judo</option>
                                 <option value="mini-poussin">mini-poussins</option>
                                 <option value="poussins">poussins</option>
