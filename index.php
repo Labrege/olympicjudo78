@@ -27,7 +27,7 @@
 
 <div class="news">
   <div class="grand">
-    <p>Nouveau horaire des cours</p>
+    <p>fête du club le 25 juin!! Venez nombreux </p>
   </div>
   
   
@@ -103,6 +103,20 @@
         <img src="image/Logo_OJBM78_court.png" alt="logo">
       </div>
     </div>
+  </div>
+
+  <div id="evenement">
+    <div class="titre-reseaux">
+        <h1> Evenement </h1>
+    </div>
+      <div class="container-evenement">
+        <div class="imagefete">
+          <img src="image/feteclub.png" alt="logo">
+        </div>
+        <div class="imagefete">
+          <img src="image/infofeteclub.png" alt="logo">
+        </div>
+      </div>
   </div>
 
 

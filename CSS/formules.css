@@ -141,6 +141,17 @@
 }
 
 
+.formulejudo-container{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: rgba(160, 160, 160, 0.904);
+}
+
+
 
 /*********************************************/
 
