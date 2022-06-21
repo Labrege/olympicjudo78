@@ -19,15 +19,17 @@
             <div class="card-form">
                 <img src="image/BABY-GYM.png" class="icon_baby" alt="icone baby gym buchelay">             
                 <div class="titre-formule">
-                    <h2>Baby Judo-Gym</Judo-Gym></h2>
+                    <h2>Baby Judo</h2>
+                    <h2>Mini Judo Parcours</h2>
                     </div>
                 <div class="contenue_propose">
                     <ul class="liste_contenu_plan">
                         <li class="contenu_plan"><p>Cotisation Club: 180€</p></li>
                         <li class="contenu_plan"><p>licence assurance: 20€</p></li>
                         <li class="contenu_plan"><p>3-4 ans</p></li>
-                        <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>1 ou 2 cours par semaine</p></li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Mercredi, Vendredi ou Samedi </p> </li>
+                        <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>1 cours par semaine</p></li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>3ans:Mardi ou Mercredi </p> </li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>4ans:Mercredi ou Samedi </p> </li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Buchelois : -10%</p></li>
                     </ul>
                 </div>
@@ -50,7 +52,7 @@
                         <li class="contenu_plan"><p>Cotisation Club: 220€</p></li>
                         <li class="contenu_plan"><p>Licence-Assurance Fédérale: 40€</p></li>
                         <li class="contenu_plan"><p>A partir de 5 ans</p></li>
-                        <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>jusqu'à 4 cours/ semaine </p></li>
+                        <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>2 cours par semaine </p></li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Ju-jitsu à partir de 14 ans</p> </li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Taiso à partir de 14 ans</p></li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Buchelois : -10%</p></li>
