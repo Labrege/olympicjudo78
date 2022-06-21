@@ -45,7 +45,7 @@
     </div>
     <div class="valeurs-container contenue_cacher">
         <div class="valeurs-texte">
-          <h2> Baby Judo-Gym </h2>
+          <h2> Baby Judo </h2>
           <p>Développement de la motricité et de la coordination</p>
         </div>
     </div>
@@ -97,7 +97,7 @@
           <h2 class="apropos-titre"> NOUVEAU CLUB DE JUDO </h2>
           <br>
           <br>
-          <p class="apropos-texte"> Dans le magnifique dojo de la plaine des Sports Grigore-Obreja situé à Buchelay, l'Olympic Judo 78 Buchelay-Mantes propose aux enfants, jeunes et adultes des cours de Baby Gym, Judo, Ju-Jitsu et Taïso adaptés à toutes les pratiques. Ils sont encadrés par un professeur expérimenté et diplômé d'état 2ème degré, Stéphane Brégeon, 6ème dan.</p>
+          <p class="apropos-texte"> Dans le magnifique dojo de la plaine des Sports Grigore-Obreja situé à Buchelay, l'Olympic Judo 78 Buchelay-Mantes propose aux enfants, jeunes et adultes des cours de Baby Judo, Judo, Ju-Jitsu et Taïso adaptés à toutes les pratiques. Ils sont encadrés par un professeur expérimenté et diplômé d'état 2ème degré, Stéphane Brégeon, 6ème dan.</p>
       </div>
       <div class="apropos-boite">
         <img src="image/Logo_OJBM78_court.png" alt="logo">
