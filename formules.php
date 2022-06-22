@@ -28,8 +28,8 @@
                         <li class="contenu_plan"><p>licence assurance: 20€</p></li>
                         <li class="contenu_plan"><p>3-4 ans</p></li>
                         <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>1 cours par semaine</p></li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>3ans:Mardi ou Mercredi </p> </li>
-                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>4ans:Mercredi ou Samedi </p> </li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>3ans: Mardi ou Mercredi </p> </li>
+                        <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>4ans: Mercredi ou Samedi </p> </li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Buchelois : -10%</p></li>
                     </ul>
                 </div>

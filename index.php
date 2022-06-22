@@ -27,7 +27,7 @@
 
 <div class="news">
   <div class="grand">
-    <p>fête du club le 25 juin!! Venez célébrer notre 1er anniversaire </p>
+    <p>fête du club le 2 juillet!! Venez célébrer notre 1er anniversaire </p>
   </div>
   
   
