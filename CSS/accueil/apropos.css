@@ -78,6 +78,10 @@
     justify-content: space-around;
     
 }
+.container-evenement img{ 
+    width: 400px;
+    height: auto;
+}
 
 @media screen and (max-width: 768px){
     .container-boite{
@@ -93,6 +97,13 @@
         margin-bottom: 50px;
     }
 
+    .container-evenement{
+        flex-direction: column;
+    }
 
+    .container-evenement img{ 
+        width: 250px;
+        height: auto;
+    }
 }
 
