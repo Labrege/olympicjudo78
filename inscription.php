@@ -92,8 +92,10 @@ session_start();
                             <h4>Cours</h4>
                             <select name="cours" class="texte" required>
                                 <option value="vide">    </option>
+                                <option value="mini"> mini judo parcours</option>
                                 <option value="baby">baby judo_gym </option>
-                                <option value="eveil">eveil-judo</option>
+                                <option value="eveil1">eveil-judo groupe 1(débutant)</option>
+                                <option value="eveil2">eveil-judo groupe 2</option>
                                 <option value="mini-poussin">mini-poussins</option>
                                 <option value="poussins">poussins</option>
                                 <option value="benjamins">benjamins</option>
@@ -107,23 +109,23 @@ session_start();
                             </div>
 
                             <h4>Présence au cours </h4>
-                            <div class="presence">
+                            <div class="choixcours">
                                 <div class="jours mardi no-display">
-                                    <input type="checkbox" name="mardi" class="check" value=1 >
+                                    <input type="radio" name="choixjours" class="check" value="mardi" >
                                     <label for="scales">Mardi</label>
                                 </div>
                                 <div class="jours mercredi no-display">
-                                    <input type="checkbox" name="mercredi" class="check" value=1 >
+                                    <input type="radio" name="choixjours" class="check" value="mercredi" >
                                     <label for="scales">Mercredi</label>
                                 </div>
-                                <div class="jours vendredi no-display">
-                                    <input type="checkbox" name="vendredi" class="check" value=1 >
-                                    <label for="scales">Vendredi</label>
-                                </div>
                                 <div class="jours samedi no-display">
-                                    <input type="checkbox" name="samedi" class="check" value=1 >
+                                    <input type="radio" name="choixjours" class="check" value="samedi" >
                                     <label for="scales">Samedi</label>
                                 </div>
+                            </div>
+                            <div class="choixcours">
+                                <div class="jours" ><label id="cours1" for="scales"></label></div>
+                                <div class="jours"><label id="cours2" for="scales"></label></div>
                             </div>
 
                             <div class=droit>

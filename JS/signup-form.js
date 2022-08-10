@@ -186,47 +186,64 @@ $(document).ready(function() {
 
     if ($('select[name="cours"]').click(function(){
         var cours = $('select[name="cours"]').val();
-        console.log(1);
-        console.log(cours);
+
         if (cours=="vide"){
             $(".musculation").addClass('no-display');
             $(".mardi").addClass('no-display');
             $(".mercredi").addClass('no-display');
-            $(".vendredi").addClass('no-display');
             $(".samedi").addClass('no-display');
         }
-        if (cours=="Cadet-junior-senior"){
-            $(".musculation").removeClass('no-display');
+        
+        else if(cours=="mini"){
             $(".mardi").removeClass('no-display');
-            $(".mercredi").addClass('no-display');
-            $(".vendredi").removeClass('no-display');
+            $(".mercredi").removeClass('no-display');
             $(".samedi").addClass('no-display');
+            $("#cours1").html("")
+            $("#cours2").html("")
         }
-        else{
-            $(".musculation").addClass('no-display');
-        }
-
-        if(cours=="baby"){
+        else if(cours=="baby"){
             $(".mardi").addClass('no-display');
             $(".mercredi").removeClass('no-display');
-            $(".vendredi").removeClass('no-display');
             $(".samedi").removeClass('no-display');
+            $("#cours1").html("")
+            $("#cours2").html("")
         }
-        else if(cours=="eveil" || cours=="mini-poussin"|| cours=="poussins" || cours=="beinjamins")
-        {
-            $(".mardi").removeClass('no-display');
-            $(".mercredi").removeClass('no-display');
-            $(".vendredi").removeClass('no-display');
-            $(".samedi").removeClass('no-display');
-        } 
-        else if (cours=="minime")
-        {
-            $(".mardi").removeClass('no-display');
-            $(".mercredi").removeClass('no-display');
-            $(".vendredi").removeClass('no-display');
+        else{
+            $(".mardi").addClass('no-display');
+            $(".mercredi").addClass('no-display');
             $(".samedi").addClass('no-display');
+            $("#cours1").html("")
+            $("#cours2").html("")
         }
-       
+
+        if(cours=='eveil1'){
+            $("#cours1").html("Mardi   18h - 18h45 ")
+            $("#cours2").html("Vendredi    17h15 - 18h ")
+        }
+        if(cours=='eveil2'){
+            $("#cours1").html("Mercredi   13h30 - 14h30 ")
+            $("#cours2").html("Samedi    13h45 - 14h30 ")
+        }
+        if(cours=='mini-poussin'){
+            $("#cours1").html("Mardi   18h45 - 19h45 ")
+            $("#cours2").html("Vendredi    18h - 19h ")
+        }
+        if(cours=='poussins'){
+            $("#cours1").html("Mercredi  9h15 - 10h30 ")
+            $("#cours2").html("Samedi    11h - 12h30 ")
+        }
+        if(cours=='beinjamins'){
+            $("#cours1").html("Mercredi  14h30 - 16h ")
+            $("#cours2").html("Vendredi    19h - 20h ")
+        }
+        if(cours=='minime'){
+            $("#cours1").html("Mercredi  14h30 - 16h ")
+            $("#cours2").html("Vendredi    19h - 20h ")
+        }
+        if(cours=='Cadet-junior-senior'){
+            $("#cours1").html("Mardi   20h - 21h30 ")
+            $("#cours2").html("Vendredi    20h - 21h30 ")
+        }
         //prix 
         if(cours=="baby")
         {
@@ -281,42 +298,30 @@ $(document).ready(function() {
             var cours = $('select[name="cours"]').val();
             var droitimage = $('input[name="droitimage"]').val();
             var newsletter = $('input[name="newsletter"]').val();
-
-            if ($('input[name="mardi"]').is(':checked'))
+            var choixjours= $('input[name="choixjours"]').val();
+            mardi=0;
+            mercredi=0;
+            samedi=0;
+            muscu=0
+            if (choixjours=="mardi")
             {
                 mardi=1;
-            }else{
-                mardi=0;
             }
-            if ($('input[name="mercredi"]').is(':checked'))
+            if (choixjours=="mercredi")
             {
                 mercredi=1;
-            }else{
-                mercredi=0;
             }
-            if ($('input[name="vendredi"]').is(':checked'))
-            {
-                vendredi=1;
-            }else{
-                vendredi=0;
-            }
-            if ($('input[name="samedi"]').is(':checked'))
+            if (choixjours=="samedi")
             {
                 samedi=1;
-            }else{
-                samedi=0;
             }
             if ($('input[name="musculation"]').is(':checked'))
             {
                 muscu=1;
-            }else{
-                muscu=0;
             }
-            console.log(mardi);
-            console.log(mercredi);
-            console.log(vendredi);
-            console.log(samedi);
-           
+            
+            
+
             var submit = $('button[name="finaliser"]').val();
             
             $(".message").load("inscription_back.php", {
@@ -339,7 +344,6 @@ $(document).ready(function() {
                 newsletter:newsletter,
                 mardi:mardi,
                 mercredi:mercredi,
-                vendredi:vendredi,
                 samedi:samedi,
                 muscu:muscu,
                 submit: submit

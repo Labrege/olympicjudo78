@@ -25,11 +25,10 @@ if(isset($_POST['submit'])){
     $droitimage = $_POST['droitimage'];    
     $newsletter = $_POST['newsletter'];    
     $muscu = $_POST['muscu'];
-    
-    $mardi=$_POST['mardi'];
+    $mardi= $_POST['mardi'];
     $mercredi=$_POST['mercredi'];
-    $vendredi=$_POST['vendredi'];
     $samedi=$_POST['samedi'];
+    
     $frere=0;
     $sante=" ";
     $date_inscription=date("Y-m-d H:i:s");
@@ -38,8 +37,7 @@ if(isset($_POST['submit'])){
     $sql= "INSERT INTO inscription (Date_inscription,Nom,Prenom,Sexe, Date_naissance,Ville,Mail, Telephone, Resp1Nom, Resp1tel, Resp1mail, Resp2Nom, Resp2tel, Resp2mail, sante, ceinture, cours,musculation,Frere,Mardi,Mercredi,Vendredi,Samedi) 
     VALUES ('".$date_inscription."','".$nom."','".$prenom."','".$sexe."','".$date."','".$ville."','".$mail."','".$tel."','".
     $resp1nom."','".$resp1tel."','".$resp1mail."','".$resp2nom."','".$resp2tel."','".$resp2mail."','".
-     $sante."','".$ceinture."','".$cours."','".$muscu."','".$frere."','".$mardi."','".
-     $mercredi."','".$vendredi."','".$samedi."')";
+     $sante."','".$ceinture."','".$cours."','".$muscu."','".$frere."','".$mardi."','".$mercredi."','','".$samedi."')";
     
     $resp1=mysqli_query($conn,$sql);              
 
