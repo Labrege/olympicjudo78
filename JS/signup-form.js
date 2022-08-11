@@ -282,7 +282,7 @@ $(document).ready(function() {
             var prenom = $('input[name="prenom"]').val();
             var nom = $('input[name="nom"]').val();
             var dob = $('input[name="dob"]').val();
-            var sexe=$('input[name="sexe"]').val();
+            
             var ville=$('input[name="ville"]').val();
             
             var resp1nom = $('input[name="resp1nom"]').val();
@@ -298,20 +298,30 @@ $(document).ready(function() {
             var cours = $('select[name="cours"]').val();
             var droitimage = $('input[name="droitimage"]').val();
             var newsletter = $('input[name="newsletter"]').val();
-            var choixjours= $('input[name="choixjours"]').val();
+            sexe=''
+
+            if($('input[id="sexF"]').is(':checked'))
+            {
+                sexe='F';
+            }
+            if($('input[id="sexM"]').is(':checked'))
+            {
+                sexe='M';
+            }
+            
             mardi=0;
             mercredi=0;
             samedi=0;
             muscu=0
-            if (choixjours=="mardi")
+            if ($('input[id="mardi"]').is(':checked'))
             {
                 mardi=1;
             }
-            if (choixjours=="mercredi")
+            if ($('input[id="mercredi"]').is(':checked'))
             {
                 mercredi=1;
             }
-            if (choixjours=="samedi")
+            if ($('input[id="samedi"]').is(':checked'))
             {
                 samedi=1;
             }
@@ -320,8 +330,6 @@ $(document).ready(function() {
                 muscu=1;
             }
             
-            
-
             var submit = $('button[name="finaliser"]').val();
             
             $(".message").load("inscription_back.php", {

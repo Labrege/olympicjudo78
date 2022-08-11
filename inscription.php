@@ -33,9 +33,9 @@ session_start();
                         <div class="sexe">
                             <h4>Sexe</h4>
                             <br>
-                            <input type="radio" placeholder="M" name="sexe" value="M">
+                            <input type="radio" id="sexM" placeholder="M" name="sexe" value="M">
                             M <br><br>
-                            <input type="radio" placeholder="F" name="sexe" value="F">
+                            <input type="radio" id="sexF" placeholder="F" name="sexe" value="F">
                             F <br>
                         </div>
                     
@@ -111,15 +111,15 @@ session_start();
                             <h4>Présence au cours </h4>
                             <div class="choixcours">
                                 <div class="jours mardi no-display">
-                                    <input type="radio" name="choixjours" class="check" value="mardi" >
+                                    <input type="radio" id="mardi" name="choixjours" class="check" value="mardi" >
                                     <label for="scales">Mardi</label>
                                 </div>
-                                <div class="jours mercredi no-display">
-                                    <input type="radio" name="choixjours" class="check" value="mercredi" >
+                                <div class="jours mercredi no-display ">
+                                    <input type="radio" id="mercredi" name="choixjours" class="check" value="mercredi" >
                                     <label for="scales">Mercredi</label>
                                 </div>
                                 <div class="jours samedi no-display">
-                                    <input type="radio" name="choixjours" class="check" value="samedi" >
+                                    <input type="radio" id="samedi" name="choixjours" class="check" value="samedi" >
                                     <label for="scales">Samedi</label>
                                 </div>
                             </div>
