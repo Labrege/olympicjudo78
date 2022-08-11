@@ -93,7 +93,7 @@ session_start();
                             <select name="cours" class="texte" required>
                                 <option value="vide">    </option>
                                 <option value="mini"> mini judo parcours</option>
-                                <option value="baby">baby judo_gym </option>
+                                <option value="baby">baby judo </option>
                                 <option value="eveil1">eveil-judo groupe 1(débutant)</option>
                                 <option value="eveil2">eveil-judo groupe 2</option>
                                 <option value="mini-poussin">mini-poussins</option>
