@@ -200,6 +200,8 @@ $(document).ready(function() {
             $(".samedi").addClass('no-display');
             $("#cours1").html("")
             $("#cours2").html("")
+            $("#cours1").html("Mardi   17h15 - 18h ")
+            $("#cours2").html("Mercredi    11h15 - 12h ")
         }
         else if(cours=="baby"){
             $(".mardi").addClass('no-display');
@@ -207,6 +209,8 @@ $(document).ready(function() {
             $(".samedi").removeClass('no-display');
             $("#cours1").html("")
             $("#cours2").html("")
+            $("#cours1").html("Mercredi   10h30 - 11h15 ")
+            $("#cours2").html("Samedi    13h - 13h45 ")
         }
         else{
             $(".mardi").addClass('no-display');

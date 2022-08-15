@@ -139,7 +139,7 @@ session_start();
                             </div>
 
                             <div class="prix">
-                                <h4>Prix a titre indicatif</h4>
+                                <h4>TARIF Saison 2022-2023</h4>
                                 <label for="scales" class="180  "> 180 €</label>
                                 <label for="scales" class="220 no-display"> 220 €</label>
                                 <label for="scales" class="330 no-display"> 330 €</label>

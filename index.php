@@ -27,7 +27,7 @@
 
 <div class="news">
   <div class="grand">
-    <p>fête du club le 2 juillet!! Venez célébrer notre 1er anniversaire </p>
+    <p>Reprise des cours le Mardi 6 Septembre. Inscription au Dojo Mercredi 30 Août</p>
   </div>
   
   
@@ -111,10 +111,10 @@
     </div>
       <div class="container-evenement">
         <div class="imagefete">
-          <img src="image/feteclub.png" alt="logo">
+          <img src="image/evenement1.jpg" alt="logo">
         </div>
         <div class="imagefete">
-          <img src="image/infofeteclub.png" alt="logo">
+          <img src="image/evenement2.jpg" alt="logo">
         </div>
       </div>
   </div>
