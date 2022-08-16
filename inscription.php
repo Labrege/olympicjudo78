@@ -72,7 +72,7 @@ session_start();
 
                     <!-- Etape 3 -->
                     <h2> Etape 3 </h2>
-                    <div class="form-container no-display" id="form-container3">
+                    <div class="form-container " id="form-container3">
                             <h3>Judo</h3>
                             <h4>Ceinture</h4>
                             <select name="ceinture" class="texte">
@@ -130,20 +130,28 @@ session_start();
 
                             <div class=droit>
                                 <input type="checkbox" name="droitimage" id="droitImage" value=droitImage checked>
-                                <label for="scales">Autoriser le droit a l'image de le cadre de la promotion et de l'information autour du club</label>
+                                <label for="scales">Autoriser le droit à l'image de le cadre de la promotion et de l'information autour du club</label>
                             </div>
 
                             <div class=droit>
                                 <input type="checkbox" name="newsletter" value=newsletter checked>
-                                <label for="scales">Recevoir la newsleter et toutes informations importantes du club </label>
+                                <label for="scales">Recevoir la newsletter et toutes informations importantes du club </label>
                             </div>
 
                             <div class="prix">
                                 <h4>TARIF Saison 2022-2023</h4>
-                                <label for="scales" class="180  "> 180 €</label>
-                                <label for="scales" class="220 no-display"> 220 €</label>
+                                <label for="scales" class="180  "> cotisation Club: 180 € +  Licence- Assurance FFJ (obligatoire) : 20€ </label>
+                                <label for="scales" class="220 no-display"> cotisation Club: 220 € +  Licence- Assurance FFJ (obligatoire) : 40€</label>
                                 <label for="scales" class="330 no-display"> 330 €</label>
-                                <p> prix hors promotion buchelois -10% et famille nombreuse: -10% deuxième enfant, -20% troisième enfant et plus . <br>règlement à effectuer lors des premiers cours</p>
+                                
+                                <h4> information pour le réglement</h4>
+                                <ul class="conditionpayement">
+                                    <li>La totalité à l’inscription ou en trois fois par chèques</li>
+                                    <li>prix hors promotion buchelois -10% et famille nombreuse: -10% deuxième enfant, -20% troisième enfant et plus </li>
+                                    <li>Bon CAF : nous les complétons et vous êtes remboursés par la CAF (Attention, certaines familles qui ont attendu n'ont pas pu en bénéficier)</li>
+                                    <li>Nous acceptons Bon PASS'SPORT (50 €), Chèque Sport et Chèque Vacances.</li>
+                                    <li>Affilié à PASS+ pour les jeunes de la 6ème à leur majorité, vous pouvez bénéficier de l'aide des Yvelines de 60€ (80€ pour les boursiers).</li>
+                                </ul>
                             </div>
                            
 
