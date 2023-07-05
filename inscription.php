@@ -72,7 +72,7 @@ session_start();
 
                     <!-- Etape 3 -->
                     <h2> Etape 3 </h2>
-                    <div class="form-container " id="form-container3">
+                    <div class="form-container no-display" id="form-container3">
                             <h3>Judo</h3>
                             <h4>Ceinture</h4>
                             <select name="ceinture" class="texte">
