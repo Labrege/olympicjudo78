@@ -40,16 +40,6 @@ require 'header.php'
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="mask"></div>
-                    <div class="content">
-                        <h2> Salle de musculation </h2>
-                        <p> Une salle de 300 m2 équipée avec un matériel haut de gamme et entretenu régulièrement. On y vient pour y pratiquer la musculation et le cardio training.
-
-                        </p>
-                        <a href="https://www.buchelay.fr/" target="_blank"> En savoir plus </a>
-                    </div>
-                </div>
 
                 <div class="card">
                     <div class="mask"></div>
