@@ -50,11 +50,6 @@
 
 
 .card:nth-child(3){
-    background:url(../image/INFRASTRUCTURE_Muscu.png) center no-repeat;
-    background-size: cover;
-}
-
-.card:nth-child(4){
     background:url(../image/maps.PNG) center no-repeat;
     background-size: cover;
 }
