@@ -103,11 +103,6 @@ session_start();
                                 <option value="Cadet-junior-senior">Cadet-junior-senior</option>
                             </select>
 
-                            <div class="musculation no-display">
-                                    <input type="checkbox" name="muscu" class="check" value=musculation >
-                                    <label for="scales">Option musculation <i class="fa fa-info-circle" aria-hidden="true" title="salle de musculation"></i></label>
-                            </div>
-
                             <h4>Présence au cours </h4>
                             <div class="choixcours">
                                 <div class="jours mardi no-display">
@@ -140,9 +135,8 @@ session_start();
 
                             <div class="prix">
                                 <h4>TARIF Saison 2022-2023</h4>
-                                <label for="scales" class="180  "> cotisation Club: 180 € +  Licence- Assurance FFJ (obligatoire) : 20€ </label>
-                                <label for="scales" class="220 no-display"> cotisation Club: 220 € +  Licence- Assurance FFJ (obligatoire) : 40€</label>
-                                <label for="scales" class="330 no-display"> 330 €</label>
+                                <label for="scales" class="180  "> cotisation Club: 180 € +  Licence- Assurance FFJ (obligatoire) : 41€ </label>
+                                <label for="scales" class="220 no-display"> cotisation Club: 229 € +  Licence- Assurance FFJ (obligatoire) : 41€</label>
                                 
                                 <h4> information pour le réglement</h4>
                                 <ul class="conditionpayement">

@@ -102,7 +102,7 @@
         </div>
         <div class="formulejudo-container">
         <img src="image/tarif_judo.png" alt="horaire cours olympic judo 78 Buchelay-Mantes">
-        <p>mise a jour 21/06/2022 </p>
+        <p>mise a jour 21/06/2023 </p>
     </div>
     </div>
 </div>
