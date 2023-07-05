@@ -73,14 +73,26 @@
                     <ul class="liste_contenu_plan">
                         <li class="contenu_plan"><p>famille nombreuse :</br> - 10% pour le 2ème enfant</br> - 20% pour le 3ème enfant</p></li>
                         <li class="contenu_plan"><p>Buchelois: -10% supplementaire</p></li>
-                        <h2>Réglement</h2>
+                        
+                        
+                    </ul>
+                </div>
+
+                
+                <div class="titre-formule">
+                    <h2>Réglement</h2>
+                     </div>
+                     <div class="contenue_propose">
+                <ul class="liste_contenu_plan">
                         <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>La totalité à l’inscription ou en trois fois par chèques </p></li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Bon CAF </p> </li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Bon PASS'SPORT (50 €), PASS+, Chèque Sport et Chèque Vacances</p></li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Toute année commencée est due</p></li>
                         
+                        
                     </ul>
                 </div>
+                        
                 
                 <div class="boite-bouton-valider">
                     <button type="button_gratuit" class="bouton_valider" name="button_gratuit">S'inscrire</a>
