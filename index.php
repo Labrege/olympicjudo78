@@ -27,7 +27,7 @@
 
 <div class="news">
   <div class="grand">
-    <p>Reprise des cours le Mardi 12 Septembre. Inscription au Dojo Mercredi 30 Août</p>
+    <p>Reprise des cours le Mardi 12 Septembre</p>
   </div>
   
   
