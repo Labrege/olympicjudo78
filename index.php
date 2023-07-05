@@ -27,7 +27,7 @@
 
 <div class="news">
   <div class="grand">
-    <p>Reprise des cours le Mardi 6 Septembre. Inscription au Dojo Mercredi 30 Août</p>
+    <p>Reprise des cours le Mardi 12 Septembre. Inscription au Dojo Mercredi 30 Août</p>
   </div>
   
   
@@ -51,7 +51,7 @@
     </div>
     <div class="valeurs-container contenue_cacher">
         <div class="valeurs-texte">
-          <h2> Judo - Musculation</h2>
+          <h2> Judo</h2>
           <p> Pratique combinée du judo sous tous ses aspects (techniques, randori, kata….) et de la musculation. Judo, Ju-Jitsu (self-défense) et Taïso (préparation du corps à l'effort) 
             <br/>Accès illimité à la salle de musculation
           </p>
