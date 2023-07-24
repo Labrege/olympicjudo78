@@ -111,7 +111,7 @@
     </div>
       <div class="container-evenement">
         <div class="imagefete">
-          <img src="image/evenement3.jpg" alt="logo">
+          <img src="image/evenement3.png" alt="logo">
         </div>
         <div class="imagefete">
           <img src="image/evenement2.jpg" alt="logo">
