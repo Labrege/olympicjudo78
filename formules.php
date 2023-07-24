@@ -25,7 +25,7 @@
                 <div class="contenue_propose">
                     <ul class="liste_contenu_plan">
                         <li class="contenu_plan"><p>Cotisation Club: 180€</p></li>
-                        <li class="contenu_plan"><p>licence assurance: 41€</p></li>
+                        <li class="contenu_plan"><p>Licence-Assurance: 41€</p></li>
                         <li class="contenu_plan"><p>3-4 ans</p></li>
                         <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>1 cours par semaine</p></li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>3ans: Mardi ou Mercredi </p> </li>
@@ -50,7 +50,7 @@
                 <div class="contenue_propose">
                     <ul class="liste_contenu_plan">
                         <li class="contenu_plan"><p>Cotisation Club: 229€</p></li>
-                        <li class="contenu_plan"><p>Licence-Assurance Fédérale: 41€</p></li>
+                        <li class="contenu_plan"><p>Licence-Assurance: 41€</p></li>
                         <li class="contenu_plan"><p>A partir de 5 ans</p></li>
                         <li class="contenu_plan"><img src="image/tick.png" alt="tick"> <p>2 cours par semaine </p></li>
                         <li class="contenu_plan"> <img src="image/tick.png" alt="tick"><p>Ju-jitsu à partir de 14 ans</p> </li>
