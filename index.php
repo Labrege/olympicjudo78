@@ -52,8 +52,8 @@
     <div class="valeurs-container contenue_cacher">
         <div class="valeurs-texte">
           <h2> Judo</h2>
-          <p> Pratique combinée du judo sous tous ses aspects (techniques, randori, kata….) et de la musculation. Judo, Ju-Jitsu (self-défense) et Taïso (préparation du corps à l'effort) 
-            <br/>Accès illimité à la salle de musculation
+          <p> Pratique combinée du judo sous tous ses aspects (techniques, randori, kata….) et de la préparation physique.
+              </br> Judo, Ju-Jitsu (self-défense) et Taïso (préparation du corps à l'effort) 
           </p>
         </div>
     </div>
