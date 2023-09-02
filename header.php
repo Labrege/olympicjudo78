@@ -1,6 +1,3 @@
-<?php
-  require 'db.inc.php';
-?>
 <div class="header-logo">
     <div class="logo-container">
       <!--<a href="index.php"><img class= "logo_club" src="image/logo_ojmb.avif" alt="logo-test"></a>

@@ -2,6 +2,7 @@
 <?php
 //test connexion github/hostinger
 require 'links.php';
+require 'db.inc.php';
 ?>
 <title> Inscription en ligne</title>
 <meta name="description" content="L'inscription en ligne est maintenant disponible, on vous attend!!">
