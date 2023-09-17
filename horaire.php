@@ -16,8 +16,10 @@
     </div>
     <div class="horaire-container">
         <img src="image/planninghoraire.png" alt="horaire cours olympic judo 78 Buchelay-Mantes">
-        <p>mise a jour 21/06/2022 </p>
+        <p>* MINI-JUDO et BABY-JUDO : un cours par semaine à choisir sur l'un des 2 créneaux. A partir d'EVEIL JUDO, 2 cours par semaine </p>
+        <p>** Changement d'horaires</p>
     </div>
+    <p>mise a jour 17/09/2023 </p>
 </div>
 
 <?php
